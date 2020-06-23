@@ -3,6 +3,7 @@
   "item.automachines.pumice": "Pumice",
   "item.automachines.blade": "Blade",
   "block.automachines.pumice_ore": "Pumice Ore",
+  "block.automachines.leacher": "Leacher",
   "item.automachines.sulfur": "Sulfur",
   "item.automachines.pumice_abrasive": "Pumice Abrasive",
   "block.automachines.ash_block": "Ash Block",
@@ -12,13 +13,13 @@
   "block.automachines.oxidizer": "Oxidizer",
   "item.automachines.aluminium_ingot": "Aluminium Ingot",
   "block.automachines.machine_shell": "Machine Shell",
-  "advancements.the_beggining.descr": "Obtain the sulfuric acid - a heart of chemistry.",
+  "advancements.the_beggining.descr": "Obtain the sulphuric acid - a heart of chemistry.",
   "block.automachines.polished_ash": "Polished Ash",
   "advancements.the_beggining.title": "Chemist Journeyman",
   "item.automachines.lens": "Lens",
   "block.automachines.macerator": "Macerator",
   "block.automachines.copper_cable": "Copper Cable",
-  "item.automachines.sulfur_acid": "Sulfur Acid",
+  "item.automachines.sulfur_acid": "Sulphuric Acid",
   "block.automachines.aluminium_ore": "Aluminium Ore",
   "block.automachines.sulfur_ore": "Sulfur Ore"
 }

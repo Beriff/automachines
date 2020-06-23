@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Chemist Journeyman",
-    "achievementDescription": "Obtain the sulfuric acid - a heart of chemistry.",
+    "achievementDescription": "Obtain the sulphuric acid - a heart of chemistry.",
     "achievementIcon": {
       "value": "CUSTOM:SulfurAcid"
     },

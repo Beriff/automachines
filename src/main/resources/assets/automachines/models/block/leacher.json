@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "automachines:blocks/iron_uv",
+    "up": "automachines:blocks/iron_uv",
+    "north": "automachines:blocks/leacher",
+    "east": "automachines:blocks/iron_uv",
+    "south": "automachines:blocks/iron_uv",
+    "west": "automachines:blocks/iron_uv",
+    "particle": "automachines:blocks/iron_uv"
+  }
+}
