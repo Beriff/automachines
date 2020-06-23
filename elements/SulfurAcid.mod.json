@@ -1,0 +1,27 @@
+{
+  "_fv": 8,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "sulfur_acid",
+    "customModelName": "Normal",
+    "name": "Sulfur Acid",
+    "specialInfo": [
+      "Do not drink it!"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ModTab"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "SulfurAcidFoodEaten"
+    }
+  }
+}

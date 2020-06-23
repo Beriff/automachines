@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "automachines:blocks/resin_uv",
+    "up": "automachines:blocks/resin_uv",
+    "north": "automachines:blocks/resin_uv",
+    "east": "automachines:blocks/resin_uv",
+    "south": "automachines:blocks/resin_uv",
+    "west": "automachines:blocks/resin_uv",
+    "particle": "automachines:blocks/resin_uv"
+  }
+}

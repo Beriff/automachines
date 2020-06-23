@@ -1,0 +1,136 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "stone_uv": "minecraft:blocks/stone_uv",
+        "log_uv": "minecraft:blocks/log_uv",
+        "iron_uv": "minecraft:blocks/iron_uv"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 0, 0, 0 ], 
+            "to": [ 16, 2, 16 ], 
+            "faces": {
+                "north": { "texture": "#iron_uv", "uv": [ 0, 0, 16, 2 ] },
+                "east": { "texture": "#iron_uv", "uv": [ 0, 0, 16, 2 ] },
+                "south": { "texture": "#iron_uv", "uv": [ 0, 0, 16, 2 ] },
+                "west": { "texture": "#iron_uv", "uv": [ 0, 0, 16, 2 ] },
+                "up": { "texture": "#iron_uv", "uv": [ 0, 0, 16, 16 ] },
+                "down": { "texture": "#iron_uv", "uv": [ 0, 0, 16, 16 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 0, 2, 0 ], 
+            "to": [ 2, 16, 16 ], 
+            "faces": {
+                "north": { "texture": "#iron_uv", "uv": [ 0, 0, 2, 14 ] },
+                "east": { "texture": "#iron_uv", "uv": [ 0, 0, 16, 14 ] },
+                "south": { "texture": "#iron_uv", "uv": [ 0, 0, 2, 14 ] },
+                "west": { "texture": "#iron_uv", "uv": [ 0, 0, 16, 14 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 14, 2, 0 ], 
+            "to": [ 16, 16, 16 ], 
+            "faces": {
+                "north": { "texture": "#iron_uv", "uv": [ 0, 0, 2, 14 ] },
+                "east": { "texture": "#iron_uv", "uv": [ 0, 0, 16, 14 ] },
+                "south": { "texture": "#iron_uv", "uv": [ 0, 0, 2, 14 ] },
+                "west": { "texture": "#iron_uv", "uv": [ 0, 0, 16, 14 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 2, 2, 0 ], 
+            "to": [ 14, 16, 1 ], 
+            "faces": {
+                "north": { "texture": "#iron_uv", "uv": [ 0, 0, 12, 14 ] },
+                "south": { "texture": "#iron_uv", "uv": [ 0, 0, 12, 14 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 2, 4, 4 ], 
+            "to": [ 12, 5, 13 ], 
+            "faces": {
+                "north": { "texture": "#stone_uv", "uv": [ 0, 0, 10, 1 ] },
+                "east": { "texture": "#stone_uv", "uv": [ 0, 0, 9, 1 ] },
+                "south": { "texture": "#stone_uv", "uv": [ 0, 0, 10, 1 ] },
+                "up": { "texture": "#stone_uv", "uv": [ 0, 0, 10, 9 ] },
+                "down": { "texture": "#stone_uv", "uv": [ 0, 0, 10, 9 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 2, 9, 7 ], 
+            "to": [ 13, 11, 9 ], 
+            "faces": {
+                "north": { "texture": "#log_uv", "uv": [ 0, 0, 11, 2 ] },
+                "east": { "texture": "#log_uv", "uv": [ 0, 0, 2, 2 ] },
+                "south": { "texture": "#log_uv", "uv": [ 0, 0, 11, 2 ] },
+                "up": { "texture": "#log_uv", "uv": [ 0, 0, 11, 2 ] },
+                "down": { "texture": "#log_uv", "uv": [ 0, 0, 11, 2 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 3, 7, 5 ], 
+            "to": [ 12, 13, 11 ], 
+            "faces": {
+                "north": { "texture": "#stone_uv", "uv": [ 0, 0, 9, 6 ] },
+                "east": { "texture": "#stone_uv", "uv": [ 0, 0, 6, 6 ] },
+                "south": { "texture": "#stone_uv", "uv": [ 0, 0, 9, 6 ] },
+                "west": { "texture": "#stone_uv", "uv": [ 0, 0, 7, 6 ] },
+                "up": { "texture": "#stone_uv", "uv": [ 0, 0, 9, 6 ] },
+                "down": { "texture": "#stone_uv", "uv": [ 0, 0, 9, 6 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 0, 16, 0 ], 
+            "to": [ 16, 17, 16 ], 
+            "faces": {
+                "north": { "texture": "#iron_uv", "uv": [ 0, 0, 16, 1 ] },
+                "east": { "texture": "#iron_uv", "uv": [ 0, 0, 16, 1 ] },
+                "south": { "texture": "#iron_uv", "uv": [ 0, 0, 16, 1 ] },
+                "west": { "texture": "#iron_uv", "uv": [ 0, 0, 16, 1 ] },
+                "up": { "texture": "#iron_uv", "uv": [ 0, 0, 16, 16 ] },
+                "down": { "texture": "#iron_uv", "uv": [ 0, 0, 16, 16 ] }
+            }
+        }
+    ]
+}

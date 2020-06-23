@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "stone_uv": "stone_uv",
+        "log_uv": "log_uv",
+        "iron_uv": "iron_uv"
+      },
+      "name": "default"
+    }
+  }
+}

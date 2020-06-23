@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "automachines:blocks/sulfur_ore",
+    "up": "automachines:blocks/sulfur_ore",
+    "north": "automachines:blocks/sulfur_ore",
+    "east": "automachines:blocks/sulfur_ore",
+    "south": "automachines:blocks/sulfur_ore",
+    "west": "automachines:blocks/sulfur_ore",
+    "particle": "automachines:blocks/sulfur_ore"
+  }
+}

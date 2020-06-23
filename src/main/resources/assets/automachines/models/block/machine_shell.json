@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "automachines:blocks/machine_shell",
+    "up": "automachines:blocks/machine_shell",
+    "north": "automachines:blocks/machine_shell",
+    "east": "automachines:blocks/machine_shell",
+    "south": "automachines:blocks/machine_shell",
+    "west": "automachines:blocks/machine_shell",
+    "particle": "automachines:blocks/machine_shell"
+  }
+}

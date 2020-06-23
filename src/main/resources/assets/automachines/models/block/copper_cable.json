@@ -1,0 +1,9 @@
+{
+  "parent": "automachines:custom/copper_cable",
+  "textures": {
+    "all": "automachines:blocks/resin_uv",
+    "particle": "automachines:blocks/resin_uv",
+    "copper_uv": "automachines:blocks/copper_uv",
+    "resin_uv": "automachines:blocks/resin_uv"
+  }
+}

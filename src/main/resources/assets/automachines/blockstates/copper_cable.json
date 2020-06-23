@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "automachines:block/copper_cable"
+    },
+    "facing=east": {
+      "model": "automachines:block/copper_cable",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "automachines:block/copper_cable",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "automachines:block/copper_cable",
+      "y": 270
+    }
+  }
+}

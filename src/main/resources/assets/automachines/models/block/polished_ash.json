@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "automachines:blocks/polished_ash",
+    "up": "automachines:blocks/polished_ash",
+    "north": "automachines:blocks/polished_ash",
+    "east": "automachines:blocks/polished_ash",
+    "south": "automachines:blocks/polished_ash",
+    "west": "automachines:blocks/polished_ash",
+    "particle": "automachines:blocks/polished_ash"
+  }
+}
