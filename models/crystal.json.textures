@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "nitrocalite_crystal_uv": "nitrocalite_crystal_uv"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "automachines:blocks/clay_uv",
+    "up": "automachines:blocks/clay_uv",
+    "north": "automachines:blocks/blast_furnace_form",
+    "east": "automachines:blocks/clay_uv",
+    "south": "automachines:blocks/clay_uv",
+    "west": "automachines:blocks/clay_uv",
+    "particle": "automachines:blocks/clay_uv"
+  }
+}

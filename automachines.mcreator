@@ -576,35 +576,911 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "leacher_gui"
+    },
+    {
+      "name": "LeacherOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leacher_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nitrocalite",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitrocalite"
+    },
+    {
+      "name": "NitrocaliteMineral",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitrocalite_mineral"
+    },
+    {
+      "name": "AlloyFurnaceGUI",
+      "type": "gui",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alloy_furnace_gui"
+    },
+    {
+      "name": "AlloyFurnaceOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alloy_furnace_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Steel",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel"
+    },
+    {
+      "name": "Carbon",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carbon"
+    },
+    {
+      "name": "AlloyFurnaceUpdateTick",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alloy_furnace_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlloyFurnace",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alloy_furnace"
+    },
+    {
+      "name": "AlloyFurnaceRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alloy_furnace_recipe"
+    },
+    {
+      "name": "ConcentratorGUI",
+      "type": "gui",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "concentrator_gui"
+    },
+    {
+      "name": "ConcentratorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "concentrator_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlatinumIngot",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platinum_ingot"
+    },
+    {
+      "name": "PlatinumGroupConcentrate",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platinum_group_concentrate"
+    },
+    {
+      "name": "ConcentratorUpdateTick",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "concentrator_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Concentrator",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "concentrator"
+    },
+    {
+      "name": "PlatinumOre",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platinum_ore"
+    },
+    {
+      "name": "PlatinumIngotRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platinum_ingot_recipe"
+    },
+    {
+      "name": "OsmiumCrystal",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_crystal"
+    },
+    {
+      "name": "IridiumPiece",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_piece"
+    },
+    {
+      "name": "LeacherUpdateTick",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leacher_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NitrocaliteCrystal",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitrocalite_crystal"
+    },
+    {
+      "name": "Crater",
+      "type": "structure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crater"
+    },
+    {
+      "name": "OverloadRecipeWood",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "overload_recipe_wood"
+    },
+    {
+      "name": "OverloadRecipeStick",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "overload_recipe_stick"
+    },
+    {
+      "name": "TreeBranch",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tree_branch"
+    },
+    {
+      "name": "NewOak",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "new_oak"
+    },
+    {
+      "name": "NewOakUpdateTick",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "new_oak_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PineLeaves",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pine_leaves"
+    },
+    {
+      "name": "Pine",
+      "type": "structure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pine"
+    },
+    {
+      "name": "SaplingUpdateTick",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapling_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SaplingBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapling_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sapling",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapling"
+    },
+    {
+      "name": "Pebble",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pebble"
+    },
+    {
+      "name": "PebbleSpawn",
+      "type": "structure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pebble_spawn"
+    },
+    {
+      "name": "PebbleOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pebble_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlantFiber",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plant_fiber"
+    },
+    {
+      "name": "PFRecipe1",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pf_recipe_1"
+    },
+    {
+      "name": "PFRecipe2",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pf_recipe_2"
+    },
+    {
+      "name": "ThickStick",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thick_stick"
+    },
+    {
+      "name": "TSRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ts_recipe"
+    },
+    {
+      "name": "StoneHoe",
+      "type": "tool",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_hoe"
+    },
+    {
+      "name": "StoneHoeRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_hoe_recipe"
+    },
+    {
+      "name": "HematitePiece",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hematite_piece"
+    },
+    {
+      "name": "HematiteDirtOre",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hematite_dirt_ore"
+    },
+    {
+      "name": "MagnetitePiece",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnetite_piece"
+    },
+    {
+      "name": "MagnetiteDirtOre",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnetite_dirt_ore"
+    },
+    {
+      "name": "FurnaceOverride",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "furnace_override"
+    },
+    {
+      "name": "ClayFurnaceForm",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clay_furnace_form"
+    },
+    {
+      "name": "StoneAxe",
+      "type": "tool",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_axe"
+    },
+    {
+      "name": "StoneAxeRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_axe_recipe"
+    },
+    {
+      "name": "CFFRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cff_recipe"
+    },
+    {
+      "name": "FurnaceRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "furnace_recipe"
+    },
+    {
+      "name": "BlastFurnace",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blast_furnace"
+    },
+    {
+      "name": "BFurnaceRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "b_furnace_recipe"
+    },
+    {
+      "name": "BFurnaceDone",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "b_furnace_done"
+    },
+    {
+      "name": "BFDRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bfd_recipe"
+    },
+    {
+      "name": "WorkbenchRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "workbench_recipe"
+    },
+    {
+      "name": "BFurnaceGUI",
+      "type": "gui",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "b_furnace_gui"
+    },
+    {
+      "name": "BFurnaceDoneOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "b_furnace_done_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Limestone",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone"
+    },
+    {
+      "name": "BFurnaceDoneUpdateTick",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "b_furnace_done_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CarbonDirt",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carbon_dirt"
+    },
+    {
+      "name": "Rope",
+      "type": "item",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rope"
+    },
+    {
+      "name": "RopeRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rope_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabmod_tab": "Mod Tab",
-      "item.automachines.pumice": "Pumice",
-      "item.automachines.blade": "Blade",
+      "block.automachines.carbon_dirt": "Carbon Dirt",
+      "block.automachines.magnetite_dirt_ore": "Magnetite Dirt Ore",
+      "item.automachines.stone_axe": "Stone Axe",
+      "block.automachines.b_furnace_done": "B Furnace Done",
       "block.automachines.pumice_ore": "Pumice Ore",
-      "block.automachines.leacher": "Leacher",
-      "item.automachines.sulfur": "Sulfur",
+      "block.automachines.concentrator": "Concentrator",
+      "item.automachines.magnetite_piece": "Magnetite Ore Piece",
+      "block.automachines.new_oak": "Pine Log",
       "item.automachines.pumice_abrasive": "Pumice Abrasive",
       "block.automachines.ash_block": "Ash Block",
+      "item.automachines.iridium_piece": "Iridium Piece",
+      "item.automachines.carbon": "Carbon",
+      "item.automachines.thick_stick": "Thick Stick",
+      "block.automachines.nitrocalite_crystal": "Nitrocalite Crystal",
+      "itemGroup.tabmod_tab": "Mod Tab",
+      "block.automachines.hematite_dirt_ore": "Hematite Dirt Ore",
+      "block.automachines.leacher": "Leacher",
+      "item.automachines.sulfur": "Sulfur",
       "block.automachines.sander": "Sander",
       "block.automachines.quartz_ore": "Quartz Ore",
-      "item.automachines.ash": "Ash",
-      "block.automachines.oxidizer": "Oxidizer",
-      "item.automachines.aluminium_ingot": "Aluminium Ingot",
-      "block.automachines.machine_shell": "Machine Shell",
       "advancements.the_beggining.descr": "Obtain the sulphuric acid - a heart of chemistry.",
-      "block.automachines.polished_ash": "Polished Ash",
+      "block.automachines.platinum_ore": "Platinum Ore",
+      "item.automachines.osmium_crystal": "Osmium Crystal",
+      "block.automachines.blast_furnace": "Blast Furnace Form",
+      "block.automachines.clay_furnace_form": "Clay Furnace Form",
+      "block.automachines.macerator": "Macerator",
+      "item.automachines.platinum_ingot": "Platinum Ingot",
+      "item.automachines.sulfur_acid": "Sulphuric Acid",
+      "block.automachines.pebble": "Pebble",
+      "item.automachines.pumice": "Pumice",
+      "item.automachines.platinum_group_concentrate": "Platinum Group Concentrate",
+      "item.automachines.rope": "Rope",
+      "item.automachines.aluminium_ingot": "Aluminium Ingot",
+      "block.automachines.limestone": "Limestone",
+      "item.automachines.hematite_piece": "Hematite Ore Piece",
+      "item.automachines.stone_hoe": "Stone Hoe",
       "advancements.the_beggining.title": "Chemist Journeyman",
       "item.automachines.lens": "Lens",
-      "block.automachines.macerator": "Macerator",
       "block.automachines.copper_cable": "Copper Cable",
-      "item.automachines.sulfur_acid": "Sulphuric Acid",
+      "block.automachines.alloy_furnace": "Alloy Furnace",
+      "block.automachines.sulfur_ore": "Sulfur Ore",
+      "item.automachines.blade": "Blade",
+      "item.automachines.steel": "Steel Ingot",
+      "block.automachines.nitrocalite_mineral": "Nitrocalite Mineral",
+      "item.automachines.ash": "Ash",
+      "block.automachines.oxidizer": "Oxidizer",
+      "block.automachines.machine_shell": "Machine Shell",
+      "block.automachines.polished_ash": "Polished Ash",
+      "item.automachines.nitrocalite": "Nitrocalite",
+      "block.automachines.sapling": "Sapling",
+      "item.automachines.plant_fiber": "Plant Fiber",
       "block.automachines.aluminium_ore": "Aluminium Ore",
-      "block.automachines.sulfur_ore": "Sulfur Ore"
+      "block.automachines.tree_branch": "Tree Branch",
+      "block.automachines.pine_leaves": "Pine Leaves"
     }
   },
   "workspaceSettings": {

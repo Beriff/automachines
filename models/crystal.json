@@ -1,0 +1,118 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "nitrocalite_crystal_uv": "minecraft:blocks/nitrocalite_crystal_uv"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 2, 0, 6 ], 
+            "to": [ 5, 8, 9 ], 
+            "faces": {
+                "north": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 3, 8 ] },
+                "east": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 3, 8 ] },
+                "south": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 3, 8 ] },
+                "west": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 3, 8 ] },
+                "up": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 3, 3 ] },
+                "down": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 3, 3 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 8, 0, 10 ], 
+            "to": [ 11, 5, 13 ], 
+            "faces": {
+                "north": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 3, 5 ] },
+                "east": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 3, 5 ] },
+                "south": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 3, 5 ] },
+                "west": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 3, 5 ] },
+                "up": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 3, 3 ] },
+                "down": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 3, 3 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 11, 0, 4 ], 
+            "to": [ 13, 7, 6 ], 
+            "faces": {
+                "north": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 2, 7 ] },
+                "east": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 3, 7 ] },
+                "south": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 2, 7 ] },
+                "west": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 2, 7 ] },
+                "up": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 2, 2 ] },
+                "down": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 2, 2 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 13, 0, 12 ], 
+            "to": [ 15, 4, 14 ], 
+            "faces": {
+                "north": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 2, 4 ] },
+                "east": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 2, 4 ] },
+                "south": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 2, 4 ] },
+                "west": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 2, 4 ] },
+                "up": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 2, 2 ] },
+                "down": { "texture": "#nitrocalite_crystal_uv", "uv": [ 1, 0, 3, 2 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 3, 0, 12 ], 
+            "to": [ 5, 6, 15 ], 
+            "faces": {
+                "north": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 2, 6 ] },
+                "east": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 3, 6 ] },
+                "south": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 2, 6 ] },
+                "west": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 3, 6 ] },
+                "up": { "texture": "#nitrocalite_crystal_uv", "uv": [ 1, 0, 3, 3 ] },
+                "down": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 2, 3 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 5, 0, 2 ], 
+            "to": [ 7, 4, 4 ], 
+            "faces": {
+                "north": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 2, 4 ] },
+                "east": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 2, 4 ] },
+                "south": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 2, 4 ] },
+                "west": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 2, 4 ] },
+                "up": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 2, 2 ] },
+                "down": { "texture": "#nitrocalite_crystal_uv", "uv": [ 0, 0, 2, 2 ] }
+            }
+        }
+    ]
+}

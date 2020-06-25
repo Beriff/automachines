@@ -1,0 +1,114 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "leaves_uv": "minecraft:blocks/leaves_uv",
+        "wood_uv": "minecraft:blocks/wood_uv"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 0, 8, 8 ], 
+            "to": [ 12, 10, 10 ], 
+            "faces": {
+                "north": { "texture": "#wood_uv", "uv": [ 0, 0, 12, 2 ] },
+                "east": { "texture": "#wood_uv", "uv": [ 0, 0, 2, 2 ] },
+                "south": { "texture": "#wood_uv", "uv": [ 0, 0, 12, 2 ] },
+                "west": { "texture": "#wood_uv", "uv": [ 0, 0, 2, 2 ] },
+                "up": { "texture": "#wood_uv", "uv": [ 0, 0, 12, 2 ] },
+                "down": { "texture": "#wood_uv", "uv": [ 0, 0, 12, 2 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 6, 8, 6 ], 
+            "to": [ 7, 9, 8 ], 
+            "faces": {
+                "north": { "texture": "#wood_uv", "uv": [ 0, 0, 1, 1 ] },
+                "east": { "texture": "#wood_uv", "uv": [ 0, 0, 2, 1 ] },
+                "west": { "texture": "#wood_uv", "uv": [ 0, 0, 2, 1 ] },
+                "up": { "texture": "#wood_uv", "uv": [ 0, 0, 1, 1 ] },
+                "down": { "texture": "#wood_uv", "uv": [ 0, 0, 1, 2 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 4, 9, 10 ], 
+            "to": [ 5, 10, 12 ], 
+            "faces": {
+                "east": { "texture": "#wood_uv", "uv": [ 0, 0, 2, 1 ] },
+                "south": { "texture": "#wood_uv", "uv": [ 0, 0, 1, 1 ] },
+                "west": { "texture": "#wood_uv", "uv": [ 0, 0, 2, 1 ] },
+                "up": { "texture": "#wood_uv", "uv": [ 0, 0, 1, 2 ] },
+                "down": { "texture": "#wood_uv", "uv": [ 0, 0, 1, 2 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 3, 9, 7 ], 
+            "to": [ 5, 10, 8 ], 
+            "faces": {
+                "north": { "texture": "#leaves_uv", "uv": [ 0, 0, 2, 1 ] },
+                "east": { "texture": "#leaves_uv", "uv": [ 0, 0, 1, 1 ] },
+                "west": { "texture": "#leaves_uv", "uv": [ 0, 0, 1, 1 ] },
+                "up": { "texture": "#leaves_uv", "uv": [ 0, 0, 2, 1 ] },
+                "down": { "texture": "#leaves_uv", "uv": [ 0, 0, 2, 1 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 8, 10, 9 ], 
+            "to": [ 10, 11, 10 ], 
+            "faces": {
+                "north": { "texture": "#leaves_uv", "uv": [ 0, 0, 2, 1 ] },
+                "east": { "texture": "#leaves_uv", "uv": [ 0, 0, 1, 1 ] },
+                "south": { "texture": "#leaves_uv", "uv": [ 0, 0, 2, 1 ] },
+                "west": { "texture": "#leaves_uv", "uv": [ 0, 0, 1, 1 ] },
+                "up": { "texture": "#leaves_uv", "uv": [ 0, 0, 2, 1 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 3, 7, 9 ], 
+            "to": [ 5, 8, 10 ], 
+            "faces": {
+                "north": { "texture": "#leaves_uv", "uv": [ 0, 0, 2, 1 ] },
+                "east": { "texture": "#leaves_uv", "uv": [ 0, 0, 1, 1 ] },
+                "south": { "texture": "#leaves_uv", "uv": [ 0, 0, 2, 1 ] },
+                "west": { "texture": "#leaves_uv", "uv": [ 0, 0, 1, 1 ] },
+                "down": { "texture": "#leaves_uv", "uv": [ 0, 0, 2, 1 ] }
+            }
+        }
+    ]
+}

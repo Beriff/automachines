@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "automachines:blocks/pine_sapling",
+    "particle": "automachines:blocks/pine_sapling"
+  }
+}

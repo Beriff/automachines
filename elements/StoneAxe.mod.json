@@ -1,0 +1,24 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "stone_axe",
+    "customModelName": "Normal",
+    "name": "Stone Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 2,
+    "efficiency": 2.0,
+    "attackSpeed": 1.0,
+    "enchantability": 0,
+    "damageVsEntity": 4.0,
+    "usageCount": 50,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

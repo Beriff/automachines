@@ -1,0 +1,13 @@
+{
+  "group": "automachines",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_log"
+    }
+  ],
+  "result": {
+    "item": "minecraft:air",
+    "count": 1
+  }
+}

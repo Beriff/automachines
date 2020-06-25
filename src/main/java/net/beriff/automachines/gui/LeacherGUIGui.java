@@ -33,6 +33,7 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
+import net.beriff.automachines.procedures.Remove3SlotsProcedure;
 import net.beriff.automachines.AutomachinesModElements;
 import net.beriff.automachines.AutomachinesMod;
 
@@ -117,6 +118,13 @@ public class LeacherGUIGui extends AutomachinesModElements.ModElement {
 			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 79, 48) {
 			}));
 			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 133, 30) {
+				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(3, 1, 0);
+					return retval;
+				}
+
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -439,5 +447,15 @@ public class LeacherGUIGui extends AutomachinesModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (slotID == 3 && changeType == 1) {
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				Remove3SlotsProcedure.executeProcedure($_dependencies);
+			}
+		}
 	}
 }

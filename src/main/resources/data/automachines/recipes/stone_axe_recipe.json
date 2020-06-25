@@ -1,0 +1,33 @@
+{
+  "group": "automachines",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "34 ",
+    "6  "
+  ],
+  "key": {
+    "0": {
+      "item": "automachines:pebble"
+    },
+    "1": {
+      "item": "automachines:pebble"
+    },
+    "2": {
+      "item": "automachines:plant_fiber"
+    },
+    "3": {
+      "item": "automachines:pebble"
+    },
+    "4": {
+      "item": "automachines:thick_stick"
+    },
+    "6": {
+      "item": "automachines:thick_stick"
+    }
+  },
+  "result": {
+    "item": "automachines:stone_axe",
+    "count": 1
+  }
+}

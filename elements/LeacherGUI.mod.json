@@ -91,6 +91,9 @@
         "data": {
           "id": 3,
           "disableStackInteraction": false,
+          "onTakenFromSlot": {
+            "name": "Remove3Slots"
+          },
           "name": "Slot #3",
           "x": 516,
           "y": 132

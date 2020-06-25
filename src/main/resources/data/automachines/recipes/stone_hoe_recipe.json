@@ -1,0 +1,30 @@
+{
+  "group": "automachines",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "automachines:pebble"
+    },
+    "1": {
+      "item": "automachines:plant_fiber"
+    },
+    "2": {
+      "item": "automachines:pebble"
+    },
+    "3": {
+      "item": "automachines:thick_stick"
+    },
+    "5": {
+      "item": "automachines:thick_stick"
+    }
+  },
+  "result": {
+    "item": "automachines:stone_hoe",
+    "count": 1
+  }
+}

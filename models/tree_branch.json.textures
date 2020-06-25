@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "leaves_uv": "leaves_uv",
+        "wood_uv": "log_uv"
+      },
+      "name": "default"
+    }
+  }
+}

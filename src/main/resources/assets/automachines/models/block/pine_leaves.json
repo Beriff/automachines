@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "automachines:blocks/pineleaves",
+    "up": "automachines:blocks/pineleaves",
+    "north": "automachines:blocks/pineleaves",
+    "east": "automachines:blocks/pineleaves",
+    "south": "automachines:blocks/pineleaves",
+    "west": "automachines:blocks/pineleaves",
+    "particle": "automachines:blocks/pineleaves"
+  }
+}

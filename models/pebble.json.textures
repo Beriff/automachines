@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "stone_uv": "stone_uv2"
+      },
+      "name": "default"
+    }
+  }
+}

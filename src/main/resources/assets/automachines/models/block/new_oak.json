@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "automachines:blocks/pine_top",
+    "up": "automachines:blocks/pine_top",
+    "north": "automachines:blocks/pine_log",
+    "east": "automachines:blocks/pine_log",
+    "south": "automachines:blocks/pine_log",
+    "west": "automachines:blocks/pine_log",
+    "particle": "automachines:blocks/pine_top"
+  }
+}

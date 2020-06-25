@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "automachines:blocks/platinum_ore",
+    "up": "automachines:blocks/platinum_ore",
+    "north": "automachines:blocks/platinum_ore",
+    "east": "automachines:blocks/platinum_ore",
+    "south": "automachines:blocks/platinum_ore",
+    "west": "automachines:blocks/platinum_ore",
+    "particle": "automachines:blocks/platinum_ore"
+  }
+}
