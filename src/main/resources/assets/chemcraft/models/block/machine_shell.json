@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/machine_shell",
+    "up": "chemcraft:blocks/machine_shell",
+    "north": "chemcraft:blocks/machine_shell",
+    "east": "chemcraft:blocks/machine_shell",
+    "south": "chemcraft:blocks/machine_shell",
+    "west": "chemcraft:blocks/machine_shell",
+    "particle": "chemcraft:blocks/machine_shell"
+  }
+}

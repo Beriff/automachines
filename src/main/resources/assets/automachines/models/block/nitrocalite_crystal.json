@@ -1,8 +1,0 @@
-{
-  "parent": "automachines:custom/crystal",
-  "textures": {
-    "all": "automachines:blocks/nitrocalite_crystal_uv",
-    "particle": "automachines:blocks/nitrocalite_crystal_uv",
-    "nitrocalite_crystal_uv": "automachines:blocks/nitrocalite_crystal_uv"
-  }
-}

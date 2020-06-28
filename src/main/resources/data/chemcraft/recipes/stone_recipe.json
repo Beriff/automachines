@@ -1,0 +1,42 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "chemcraft:pebble"
+    },
+    "1": {
+      "item": "chemcraft:pebble"
+    },
+    "2": {
+      "item": "chemcraft:pebble"
+    },
+    "3": {
+      "item": "chemcraft:pebble"
+    },
+    "4": {
+      "item": "chemcraft:pebble"
+    },
+    "5": {
+      "item": "chemcraft:pebble"
+    },
+    "6": {
+      "item": "chemcraft:pebble"
+    },
+    "7": {
+      "item": "chemcraft:pebble"
+    },
+    "8": {
+      "item": "chemcraft:pebble"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone",
+    "count": 1
+  }
+}

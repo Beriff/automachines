@@ -1,0 +1,30 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "chemcraft:pebble"
+    },
+    "1": {
+      "item": "chemcraft:plant_fiber"
+    },
+    "2": {
+      "item": "chemcraft:pebble"
+    },
+    "3": {
+      "item": "chemcraft:thick_stick"
+    },
+    "5": {
+      "item": "chemcraft:thick_stick"
+    }
+  },
+  "result": {
+    "item": "chemcraft:stone_hoe",
+    "count": 1
+  }
+}

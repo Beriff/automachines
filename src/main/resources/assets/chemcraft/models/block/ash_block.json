@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/resin_uv",
+    "up": "chemcraft:blocks/resin_uv",
+    "north": "chemcraft:blocks/resin_uv",
+    "east": "chemcraft:blocks/resin_uv",
+    "south": "chemcraft:blocks/resin_uv",
+    "west": "chemcraft:blocks/resin_uv",
+    "particle": "chemcraft:blocks/resin_uv"
+  }
+}

@@ -2,14 +2,14 @@
   "_fv": 8,
   "_type": "structure",
   "definition": {
-    "structure": "pebble",
+    "structure": "pebble2",
     "randomlyRotateStructure": true,
-    "surfaceDetectionType": "First block",
-    "spawnProbability": 50000,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 70000,
     "minCountPerChunk": 1,
-    "maxCountPerChunk": 2,
+    "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
-    "spawnHeightOffset": 0,
+    "spawnHeightOffset": 1,
     "spawnWorldTypes": [
       "Surface"
     ],

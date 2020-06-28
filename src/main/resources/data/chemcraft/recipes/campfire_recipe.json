@@ -1,0 +1,36 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "chemcraft:thick_stick"
+    },
+    "4": {
+      "item": "chemcraft:stick_rotator"
+    },
+    "5": {
+      "item": "chemcraft:thick_stick"
+    },
+    "6": {
+      "item": "minecraft:oak_log"
+    },
+    "7": {
+      "item": "minecraft:oak_log"
+    },
+    "8": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "item": "minecraft:campfire",
+    "count": 1
+  }
+}

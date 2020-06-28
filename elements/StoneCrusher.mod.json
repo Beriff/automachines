@@ -1,0 +1,27 @@
+{
+  "_fv": 8,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "stone_crusher",
+    "customModelName": "Normal",
+    "name": "Stone Crusher",
+    "creativeTab": {
+      "value": "CUSTOM:ModTab"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 30,
+    "toolType": 1.0,
+    "damageCount": 32,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": true,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/hematite_dirt",
+    "up": "chemcraft:blocks/hematite_dirt",
+    "north": "chemcraft:blocks/hematite_dirt",
+    "east": "chemcraft:blocks/hematite_dirt",
+    "south": "chemcraft:blocks/hematite_dirt",
+    "west": "chemcraft:blocks/hematite_dirt",
+    "particle": "chemcraft:blocks/hematite_dirt"
+  }
+}

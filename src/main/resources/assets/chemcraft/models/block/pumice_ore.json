@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/pumice",
+    "up": "chemcraft:blocks/pumice",
+    "north": "chemcraft:blocks/pumice",
+    "east": "chemcraft:blocks/pumice",
+    "south": "chemcraft:blocks/pumice",
+    "west": "chemcraft:blocks/pumice",
+    "particle": "chemcraft:blocks/pumice"
+  }
+}

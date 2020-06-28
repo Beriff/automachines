@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/limestone",
+    "up": "chemcraft:blocks/limestone",
+    "north": "chemcraft:blocks/limestone",
+    "east": "chemcraft:blocks/limestone",
+    "south": "chemcraft:blocks/limestone",
+    "west": "chemcraft:blocks/limestone",
+    "particle": "chemcraft:blocks/limestone"
+  }
+}

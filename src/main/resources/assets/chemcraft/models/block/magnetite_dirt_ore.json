@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/magnetite_dirt_ore",
+    "up": "chemcraft:blocks/magnetite_dirt_ore",
+    "north": "chemcraft:blocks/magnetite_dirt_ore",
+    "east": "chemcraft:blocks/magnetite_dirt_ore",
+    "south": "chemcraft:blocks/magnetite_dirt_ore",
+    "west": "chemcraft:blocks/magnetite_dirt_ore",
+    "particle": "chemcraft:blocks/magnetite_dirt_ore"
+  }
+}

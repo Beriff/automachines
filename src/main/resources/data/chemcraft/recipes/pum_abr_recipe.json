@@ -1,0 +1,22 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "chemcraft:pumice"
+    },
+    "1": {
+      "item": "chemcraft:pumice"
+    },
+    "2": {
+      "item": "chemcraft:pumice"
+    }
+  },
+  "result": {
+    "item": "chemcraft:pumice_abrasive",
+    "count": 1
+  }
+}

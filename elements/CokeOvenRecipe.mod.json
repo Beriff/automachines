@@ -1,0 +1,82 @@
+{
+  "_fv": 8,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Coke Oven",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Coke Oven",
+          "x": 372,
+          "y": 78
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "name": "Slot #0",
+          "x": 300,
+          "y": 114
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "name": "Slot #1",
+          "x": 300,
+          "y": 186
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hioukbb.png",
+          "name": "hioukbb.png",
+          "x": 304,
+          "y": 157
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_arrow.png",
+          "name": "gui_arrow.png",
+          "x": 408,
+          "y": 150
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "onTakenFromSlot": {
+            "name": "ItemTaken"
+          },
+          "name": "Slot #2",
+          "x": 498,
+          "y": 150
+        }
+      }
+    ]
+  }
+}

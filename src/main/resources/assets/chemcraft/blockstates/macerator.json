@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "chemcraft:block/macerator"
+    },
+    "facing=east": {
+      "model": "chemcraft:block/macerator",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chemcraft:block/macerator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chemcraft:block/macerator",
+      "y": 270
+    }
+  }
+}

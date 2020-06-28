@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/quartz_ore",
+    "up": "chemcraft:blocks/quartz_ore",
+    "north": "chemcraft:blocks/quartz_ore",
+    "east": "chemcraft:blocks/quartz_ore",
+    "south": "chemcraft:blocks/quartz_ore",
+    "west": "chemcraft:blocks/quartz_ore",
+    "particle": "chemcraft:blocks/quartz_ore"
+  }
+}

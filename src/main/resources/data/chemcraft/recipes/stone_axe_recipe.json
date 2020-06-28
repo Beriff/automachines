@@ -1,0 +1,33 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "34 ",
+    "6  "
+  ],
+  "key": {
+    "0": {
+      "item": "chemcraft:pebble"
+    },
+    "1": {
+      "item": "chemcraft:pebble"
+    },
+    "2": {
+      "item": "chemcraft:plant_fiber"
+    },
+    "3": {
+      "item": "chemcraft:pebble"
+    },
+    "4": {
+      "item": "chemcraft:thick_stick"
+    },
+    "6": {
+      "item": "chemcraft:thick_stick"
+    }
+  },
+  "result": {
+    "item": "chemcraft:stone_axe",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/flint_gravel",
+    "up": "chemcraft:blocks/flint_gravel",
+    "north": "chemcraft:blocks/flint_gravel",
+    "east": "chemcraft:blocks/flint_gravel",
+    "south": "chemcraft:blocks/flint_gravel",
+    "west": "chemcraft:blocks/flint_gravel",
+    "particle": "chemcraft:blocks/flint_gravel"
+  }
+}

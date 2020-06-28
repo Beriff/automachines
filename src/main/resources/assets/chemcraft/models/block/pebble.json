@@ -1,0 +1,8 @@
+{
+  "parent": "chemcraft:custom/pebble",
+  "textures": {
+    "all": "chemcraft:blocks/stone_uv2",
+    "particle": "chemcraft:blocks/stone_uv2",
+    "stone_uv": "chemcraft:blocks/stone_uv2"
+  }
+}

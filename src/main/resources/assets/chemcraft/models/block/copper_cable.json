@@ -1,0 +1,9 @@
+{
+  "parent": "chemcraft:custom/copper_cable",
+  "textures": {
+    "all": "chemcraft:blocks/resin_uv",
+    "particle": "chemcraft:blocks/resin_uv",
+    "copper_uv": "chemcraft:blocks/copper_uv",
+    "resin_uv": "chemcraft:blocks/resin_uv"
+  }
+}

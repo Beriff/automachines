@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/polished_ash",
+    "up": "chemcraft:blocks/polished_ash",
+    "north": "chemcraft:blocks/polished_ash",
+    "east": "chemcraft:blocks/polished_ash",
+    "south": "chemcraft:blocks/polished_ash",
+    "west": "chemcraft:blocks/polished_ash",
+    "particle": "chemcraft:blocks/polished_ash"
+  }
+}

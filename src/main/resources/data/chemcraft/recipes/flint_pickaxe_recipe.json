@@ -1,0 +1,30 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:flint"
+    },
+    "1": {
+      "item": "minecraft:flint"
+    },
+    "2": {
+      "item": "chemcraft:plant_fiber"
+    },
+    "4": {
+      "item": "chemcraft:thick_stick"
+    },
+    "6": {
+      "item": "chemcraft:thick_stick"
+    }
+  },
+  "result": {
+    "item": "chemcraft:flint_pickaxe",
+    "count": 1
+  }
+}

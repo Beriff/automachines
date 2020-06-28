@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/cassiterite_ore",
+    "up": "chemcraft:blocks/cassiterite_ore",
+    "north": "chemcraft:blocks/cassiterite_ore",
+    "east": "chemcraft:blocks/cassiterite_ore",
+    "south": "chemcraft:blocks/cassiterite_ore",
+    "west": "chemcraft:blocks/cassiterite_ore",
+    "particle": "chemcraft:blocks/cassiterite_ore"
+  }
+}

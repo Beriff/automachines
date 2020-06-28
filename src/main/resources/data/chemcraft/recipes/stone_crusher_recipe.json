@@ -1,0 +1,33 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "0": {
+      "item": "chemcraft:pebble"
+    },
+    "1": {
+      "item": "minecraft:stone"
+    },
+    "2": {
+      "item": "chemcraft:rope"
+    },
+    "4": {
+      "item": "chemcraft:thick_stick"
+    },
+    "5": {
+      "item": "minecraft:stone"
+    },
+    "6": {
+      "item": "chemcraft:thick_stick"
+    }
+  },
+  "result": {
+    "item": "chemcraft:stone_crusher",
+    "count": 1
+  }
+}

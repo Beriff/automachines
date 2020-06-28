@@ -1,0 +1,22 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chemcraft:ash"
+    },
+    {
+      "item": "chemcraft:ash"
+    },
+    {
+      "item": "chemcraft:ash"
+    },
+    {
+      "item": "chemcraft:ash"
+    }
+  ],
+  "result": {
+    "item": "chemcraft:ash_block",
+    "count": 1
+  }
+}

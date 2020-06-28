@@ -1,0 +1,42 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "chemcraft:obisidian_foam"
+    },
+    "1": {
+      "item": "chemcraft:obisidian_foam"
+    },
+    "2": {
+      "item": "chemcraft:obisidian_foam"
+    },
+    "3": {
+      "item": "minecraft:iron_ingot"
+    },
+    "4": {
+      "item": "chemcraft:machine_shell"
+    },
+    "5": {
+      "item": "minecraft:iron_ingot"
+    },
+    "6": {
+      "item": "chemcraft:obisidian_foam"
+    },
+    "7": {
+      "item": "minecraft:furnace"
+    },
+    "8": {
+      "item": "chemcraft:obisidian_foam"
+    }
+  },
+  "result": {
+    "item": "chemcraft:coke_oven",
+    "count": 1
+  }
+}

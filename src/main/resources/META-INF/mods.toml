@@ -2,14 +2,15 @@ modLoader="javafml"
 loaderVersion="[31,)"
 
 [[mods]]
-modId="automachines"
+modId="chemcraft"
 version="1.0.0"
-displayName="AutoMachines"
+displayName="ChemistryCraft"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
+logoFile="logo.png"
 authors="Maxim, MCreator"
 
-[[dependencies.automachines]]
+[[dependencies.chemcraft]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.15.2]"

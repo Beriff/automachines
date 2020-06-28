@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "chemcraft:block/copper_cable"
+    },
+    "facing=east": {
+      "model": "chemcraft:block/copper_cable",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chemcraft:block/copper_cable",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chemcraft:block/copper_cable",
+      "y": 270
+    }
+  }
+}

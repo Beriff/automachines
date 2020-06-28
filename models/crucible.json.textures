@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hardened_clay_uv": "hardened_clay_uv"
+      },
+      "name": "default"
+    }
+  }
+}

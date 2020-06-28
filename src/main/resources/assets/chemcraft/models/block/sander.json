@@ -1,0 +1,10 @@
+{
+  "parent": "chemcraft:custom/sander",
+  "textures": {
+    "all": "chemcraft:blocks/iron_uv",
+    "particle": "chemcraft:blocks/iron_uv",
+    "stone_uv": "chemcraft:blocks/stone_uv",
+    "log_uv": "chemcraft:blocks/log_uv",
+    "iron_uv": "chemcraft:blocks/iron_uv"
+  }
+}

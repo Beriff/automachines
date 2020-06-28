@@ -30,7 +30,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Sapling"
+      "value": ""
     },
     "dropAmount": 1,
     "isBeaconBase": false,

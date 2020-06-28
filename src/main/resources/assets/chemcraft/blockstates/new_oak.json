@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "chemcraft:block/new_oak"
+    },
+    "facing=north": {
+      "model": "chemcraft:block/new_oak"
+    },
+    "facing=east": {
+      "model": "chemcraft:block/new_oak",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "chemcraft:block/new_oak",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "chemcraft:block/new_oak",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "chemcraft:block/new_oak",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

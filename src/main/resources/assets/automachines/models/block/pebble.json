@@ -1,8 +1,0 @@
-{
-  "parent": "automachines:custom/pebble",
-  "textures": {
-    "all": "automachines:blocks/stone_uv2",
-    "particle": "automachines:blocks/stone_uv2",
-    "stone_uv": "automachines:blocks/stone_uv2"
-  }
-}

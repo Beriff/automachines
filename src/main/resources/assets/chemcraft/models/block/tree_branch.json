@@ -1,0 +1,9 @@
+{
+  "parent": "chemcraft:custom/tree_branch",
+  "textures": {
+    "all": "chemcraft:blocks/log_uv",
+    "particle": "chemcraft:blocks/log_uv",
+    "leaves_uv": "chemcraft:blocks/leaves_uv",
+    "wood_uv": "chemcraft:blocks/log_uv"
+  }
+}

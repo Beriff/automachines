@@ -1,0 +1,69 @@
+{
+  "_fv": 8,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Clay Crucible",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Clay Crucible",
+          "x": 362,
+          "y": 78
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "name": "Slot #0",
+          "x": 318,
+          "y": 132
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "onTakenFromSlot": {
+            "name": "Clear1Slot"
+          },
+          "name": "Slot #1",
+          "x": 498,
+          "y": 132
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hioukbb.png",
+          "name": "hioukbb.png",
+          "x": 415,
+          "y": 189
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_arrow.png",
+          "name": "gui_arrow.png",
+          "x": 408,
+          "y": 134
+        }
+      }
+    ]
+  }
+}

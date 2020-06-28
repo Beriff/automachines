@@ -1,0 +1,13 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "minecraft:small_flowers"
+    }
+  ],
+  "result": {
+    "item": "chemcraft:plant_fiber",
+    "count": 4
+  }
+}

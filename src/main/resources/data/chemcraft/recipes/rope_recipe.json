@@ -1,0 +1,16 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chemcraft:plant_fiber"
+    },
+    {
+      "item": "chemcraft:plant_fiber"
+    }
+  ],
+  "result": {
+    "item": "chemcraft:rope",
+    "count": 1
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ObisidianFoam"
+      },
+      {
+        "value": "CUSTOM:ObisidianFoam"
+      },
+      {
+        "value": "CUSTOM:ObisidianFoam"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:MachineShell"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:ObisidianFoam"
+      },
+      {
+        "value": "Blocks.FURNACE"
+      },
+      {
+        "value": "CUSTOM:ObisidianFoam"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CokeOven"
+    },
+    "name": "cokeoven_recip",
+    "namespace": "mod"
+  }
+}

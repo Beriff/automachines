@@ -1,9 +1,0 @@
-{
-  "parent": "automachines:custom/tree_branch",
-  "textures": {
-    "all": "automachines:blocks/log_uv",
-    "particle": "automachines:blocks/log_uv",
-    "leaves_uv": "automachines:blocks/leaves_uv",
-    "wood_uv": "automachines:blocks/log_uv"
-  }
-}

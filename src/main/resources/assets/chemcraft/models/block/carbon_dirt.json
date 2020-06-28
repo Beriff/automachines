@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/carbon_dirt",
+    "up": "chemcraft:blocks/carbon_dirt",
+    "north": "chemcraft:blocks/carbon_dirt",
+    "east": "chemcraft:blocks/carbon_dirt",
+    "south": "chemcraft:blocks/carbon_dirt",
+    "west": "chemcraft:blocks/carbon_dirt",
+    "particle": "chemcraft:blocks/carbon_dirt"
+  }
+}
