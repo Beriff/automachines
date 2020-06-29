@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/bricks_uv",
+    "up": "chemcraft:blocks/bronze_block",
+    "north": "chemcraft:blocks/steam_boiler_front",
+    "east": "chemcraft:blocks/bronze_machine_side",
+    "south": "chemcraft:blocks/bronze_machine_side",
+    "west": "chemcraft:blocks/bronze_machine_side",
+    "particle": "chemcraft:blocks/bricks_uv"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chemcraft:rope"
+    },
+    {
+      "item": "chemcraft:iron_pickaxe_head"
+    },
+    {
+      "item": "chemcraft:thick_stick"
+    }
+  ],
+  "result": {
+    "item": "chemcraft:iron_pickaxe",
+    "count": 1
+  }
+}

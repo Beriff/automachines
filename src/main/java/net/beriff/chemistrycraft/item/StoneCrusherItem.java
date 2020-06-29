@@ -34,8 +34,13 @@ public class StoneCrusherItem extends ChemcraftModElements.ModElement {
 		}
 
 		@Override
-		public ItemStack getContainerItem(ItemStack itemStack) {
-			return new ItemStack(this);
+		public ItemStack getContainerItem(ItemStack itemstack) {
+			ItemStack retval = new ItemStack(this);
+			retval.setDamage(itemstack.getDamage() + 1);
+			if (retval.getDamage() >= retval.getMaxDamage()) {
+				return ItemStack.EMPTY;
+			}
+			return retval;
 		}
 
 		@Override

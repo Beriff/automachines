@@ -5,6 +5,7 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
@@ -46,6 +47,15 @@ public class FlintPickaxeItem extends ChemcraftModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+			@Override
+			public boolean hasContainerItem() {
+				return true;
+			}
+
+			@Override
+			public ItemStack getContainerItem(ItemStack itemstack) {
+				return new ItemStack(this);
+			}
 		}.setRegistryName("flint_pickaxe"));
 	}
 }

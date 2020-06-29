@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "bronze_block": "bronze_block",
+        "iron_uv": "iron_uv"
+      },
+      "name": "default"
+    },
+    "bronze": {
+      "map": {
+        "bronze_block": "bronze_block",
+        "iron_uv": "bronze_block"
+      },
+      "name": "bronze"
+    }
+  }
+}

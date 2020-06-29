@@ -1,5 +1,5 @@
 {
-  "_fv": 8,
+  "_fv": 10,
   "_type": "biome",
   "definition": {
     "groundBlock": {
@@ -61,6 +61,6 @@
     "biomeDictionaryTypes": [
       "MESA"
     ],
-    "spawnList": []
+    "spawnEntries": []
   }
 }

@@ -16,6 +16,10 @@ public class StickRotatorRightClickedOnBlockProcedure extends ChemcraftModElemen
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+		if (dependencies.get("itemstack") == null) {
+			System.err.println("Failed to load dependency itemstack for procedure StickRotatorRightClickedOnBlock!");
+			return;
+		}
 		if (dependencies.get("x") == null) {
 			System.err.println("Failed to load dependency x for procedure StickRotatorRightClickedOnBlock!");
 			return;
@@ -28,18 +32,14 @@ public class StickRotatorRightClickedOnBlockProcedure extends ChemcraftModElemen
 			System.err.println("Failed to load dependency z for procedure StickRotatorRightClickedOnBlock!");
 			return;
 		}
-		if (dependencies.get("itemstack") == null) {
-			System.err.println("Failed to load dependency itemstack for procedure StickRotatorRightClickedOnBlock!");
-			return;
-		}
 		if (dependencies.get("world") == null) {
 			System.err.println("Failed to load dependency world for procedure StickRotatorRightClickedOnBlock!");
 			return;
 		}
-		int x = (int) dependencies.get("x");
-		int y = (int) dependencies.get("y");
-		int z = (int) dependencies.get("z");
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
+		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
+		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
+		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		World world = (World) dependencies.get("world");
 		if (((!((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.AIR.getDefaultState().getBlock()))
 				&& ((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.AIR.getDefaultState().getBlock()))) {

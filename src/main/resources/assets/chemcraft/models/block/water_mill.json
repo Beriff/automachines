@@ -1,0 +1,9 @@
+{
+  "parent": "chemcraft:custom/water_mill",
+  "textures": {
+    "all": "chemcraft:blocks/hardened_clay_uv",
+    "particle": "chemcraft:blocks/hardened_clay_uv",
+    "planks_uv": "chemcraft:blocks/planks_uv",
+    "hardened_clay_uv": "chemcraft:blocks/hardened_clay_uv"
+  }
+}

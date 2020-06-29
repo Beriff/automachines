@@ -1,0 +1,63 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Bronze Boiler",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Bronze Boiler",
+          "x": 370,
+          "y": 77
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "onSlotChanged": {
+            "name": "FuelToSteam"
+          },
+          "name": "Slot #0",
+          "x": 408,
+          "y": 186
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hioukbb.png",
+          "name": "hioukbb.png",
+          "x": 413,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:number:steam>",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:number:steam>",
+          "x": 407,
+          "y": 107
+        }
+      }
+    ]
+  }
+}

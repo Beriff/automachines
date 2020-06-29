@@ -1,0 +1,9 @@
+{
+  "parent": "chemcraft:custom/bronze_pickaxe_filled",
+  "textures": {
+    "all": "chemcraft:blocks/bronze_block",
+    "particle": "chemcraft:blocks/bronze_block",
+    "bronze_block": "chemcraft:blocks/bronze_block",
+    "iron_uv": "chemcraft:blocks/bronze_block"
+  }
+}

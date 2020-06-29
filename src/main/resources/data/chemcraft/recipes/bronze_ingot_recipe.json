@@ -1,0 +1,22 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chemcraft:copper_dust"
+    },
+    {
+      "item": "chemcraft:copper_dust"
+    },
+    {
+      "item": "chemcraft:copper_dust"
+    },
+    {
+      "item": "chemcraft:tin_dust"
+    }
+  ],
+  "result": {
+    "item": "chemcraft:bronze_dust",
+    "count": 1
+  }
+}

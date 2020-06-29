@@ -1,0 +1,36 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "chemcraft:bronze_ingot"
+    },
+    "2": {
+      "item": "chemcraft:bronze_ingot"
+    },
+    "3": {
+      "item": "chemcraft:bronze_ingot"
+    },
+    "5": {
+      "item": "chemcraft:bronze_ingot"
+    },
+    "6": {
+      "item": "chemcraft:bronze_ingot"
+    },
+    "7": {
+      "item": "chemcraft:bronze_ingot"
+    },
+    "8": {
+      "item": "chemcraft:bronze_ingot"
+    }
+  },
+  "result": {
+    "item": "chemcraft:bronzecrucible",
+    "count": 1
+  }
+}

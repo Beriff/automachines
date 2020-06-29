@@ -1,0 +1,19 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chemcraft:rope"
+    },
+    {
+      "item": "chemcraft:bronze_pickaxe_head"
+    },
+    {
+      "item": "chemcraft:thick_stick"
+    }
+  ],
+  "result": {
+    "item": "chemcraft:bronze_pickaxe",
+    "count": 1
+  }
+}

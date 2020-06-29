@@ -38,9 +38,9 @@ public class OxidizerUpdateTickProcedure extends ChemcraftModElements.ModElement
 			System.err.println("Failed to load dependency world for procedure OxidizerUpdateTick!");
 			return;
 		}
-		int x = (int) dependencies.get("x");
-		int y = (int) dependencies.get("y");
-		int z = (int) dependencies.get("z");
+		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
+		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
+		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		World world = (World) dependencies.get("world");
 		if ((((new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {

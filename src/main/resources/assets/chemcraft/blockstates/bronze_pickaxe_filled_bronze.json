@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "chemcraft:block/bronze_pickaxe_filled_bronze"
+    },
+    "facing=east": {
+      "model": "chemcraft:block/bronze_pickaxe_filled_bronze",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chemcraft:block/bronze_pickaxe_filled_bronze",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chemcraft:block/bronze_pickaxe_filled_bronze",
+      "y": 270
+    }
+  }
+}

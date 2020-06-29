@@ -32,9 +32,9 @@ public class NewOakUpdateTickProcedure extends ChemcraftModElements.ModElement {
 			System.err.println("Failed to load dependency world for procedure NewOakUpdateTick!");
 			return;
 		}
-		int x = (int) dependencies.get("x");
-		int y = (int) dependencies.get("y");
-		int z = (int) dependencies.get("z");
+		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
+		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
+		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		World world = (World) dependencies.get("world");
 		if ((Math.random() < 0.1)) {
 			if (((Math.round(Math.random()) < 1) && (!((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 1))))

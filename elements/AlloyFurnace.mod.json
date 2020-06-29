@@ -1,5 +1,5 @@
 {
-  "_fv": 8,
+  "_fv": 10,
   "_type": "block",
   "definition": {
     "texture": "furnace-top",
@@ -85,6 +85,13 @@
       1,
       2
     ],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
     "onRightClicked": {
       "name": "AlloyFurnaceOnBlockRightClicked"
     },

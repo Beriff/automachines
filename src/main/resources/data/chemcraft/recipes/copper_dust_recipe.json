@@ -1,0 +1,16 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chemcraft:stone_crusher"
+    },
+    {
+      "item": "chemcraft:copper_ingot"
+    }
+  ],
+  "result": {
+    "item": "chemcraft:copper_dust",
+    "count": 1
+  }
+}

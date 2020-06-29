@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/tetrahydrite_ore",
+    "up": "chemcraft:blocks/tetrahydrite_ore",
+    "north": "chemcraft:blocks/tetrahydrite_ore",
+    "east": "chemcraft:blocks/tetrahydrite_ore",
+    "south": "chemcraft:blocks/tetrahydrite_ore",
+    "west": "chemcraft:blocks/tetrahydrite_ore",
+    "particle": "chemcraft:blocks/tetrahydrite_ore"
+  }
+}

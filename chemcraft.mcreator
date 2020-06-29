@@ -143,15 +143,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -181,15 +181,15 @@
         "dependencies": [
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -210,15 +210,15 @@
         "dependencies": [
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -275,15 +275,15 @@
         "dependencies": [
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -308,15 +308,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -422,15 +422,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -477,15 +477,15 @@
         "dependencies": [
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -515,15 +515,15 @@
         "dependencies": [
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -593,15 +593,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -653,15 +653,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -700,15 +700,15 @@
         "dependencies": [
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -760,15 +760,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -807,15 +807,15 @@
         "dependencies": [
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -881,15 +881,15 @@
         "dependencies": [
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -964,15 +964,15 @@
         "dependencies": [
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -1015,15 +1015,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -1214,20 +1214,20 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
+            "type": "number"
           },
           {
             "name": "world",
@@ -1324,15 +1324,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -1362,15 +1362,15 @@
         "dependencies": [
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -1499,15 +1499,15 @@
         "dependencies": [
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -1541,15 +1541,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -1570,15 +1570,15 @@
         "dependencies": [
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -1667,23 +1667,737 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "tin_dust"
+    },
+    {
+      "name": "TinDustRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tin_dust_recipe"
+    },
+    {
+      "name": "TetrahedriteOrePiece",
+      "type": "item",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tetrahedrite_ore_piece"
+    },
+    {
+      "name": "Tetrahedrite",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tetrahedrite"
+    },
+    {
+      "name": "CopperIngot",
+      "type": "item",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ingot"
+    },
+    {
+      "name": "CopperDust",
+      "type": "item",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_dust"
+    },
+    {
+      "name": "CopperDustRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_dust_recipe"
+    },
+    {
+      "name": "BronzeIngot",
+      "type": "item",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_ingot"
+    },
+    {
+      "name": "BronzeIngotRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_ingot_recipe"
+    },
+    {
+      "name": "BronzeDust",
+      "type": "item",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_dust"
+    },
+    {
+      "name": "BronzeRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_recipe"
+    },
+    {
+      "name": "WaterMill",
+      "type": "block",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_mill"
+    },
+    {
+      "name": "WaterMillUpdateTick",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_mill_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElectricGenerator",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "electric_generator"
+    },
+    {
+      "name": "ElectricGeneratorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "electric_generator_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bronzecrucible",
+      "type": "block",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronzecrucible"
+    },
+    {
+      "name": "BronzeCrucibleGUI",
+      "type": "gui",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_crucible_gui"
+    },
+    {
+      "name": "BronzecrucibleOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronzecrucible_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BronzecrucibleUpdateTick",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronzecrucible_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ClayCrucibleRecipe",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clay_crucible_recipe"
+    },
+    {
+      "name": "BronzeCrucibleRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_crucible_recipe"
+    },
+    {
+      "name": "BronzePlate",
+      "type": "item",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_plate"
+    },
+    {
+      "name": "BronzePickaxeForm",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_pickaxe_form"
+    },
+    {
+      "name": "BronzeCrusher",
+      "type": "item",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_crusher"
+    },
+    {
+      "name": "BronzePlateRecipe",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_plate_recipe"
+    },
+    {
+      "name": "BronzePickFormRecipe",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_pick_form_recipe"
+    },
+    {
+      "name": "BronzePickaxeFilledIron",
+      "type": "block",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_pickaxe_filled_iron"
+    },
+    {
+      "name": "IronPickaxeHead",
+      "type": "item",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_pickaxe_head"
+    },
+    {
+      "name": "BronzePickaxeFilledIronOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_pickaxe_filled_iron_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BronzePickaxeFormUpdateTick",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_pickaxe_form_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronPickaxe",
+      "type": "tool",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_pickaxe"
+    },
+    {
+      "name": "IronPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_pickaxe_recipe"
+    },
+    {
+      "name": "BronzePickaxeHead",
+      "type": "item",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_pickaxe_head"
+    },
+    {
+      "name": "BronzePickaxe",
+      "type": "tool",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_pickaxe"
+    },
+    {
+      "name": "BronzePickaxeFilledBronzeOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_pickaxe_filled_bronze_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BronzePickaxeFilledBronze",
+      "type": "block",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_pickaxe_filled_bronze"
+    },
+    {
+      "name": "BronzePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_pickaxe_recipe"
+    },
+    {
+      "name": "Firebox",
+      "type": "block",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "firebox"
+    },
+    {
+      "name": "LitFirebox",
+      "type": "block",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lit_firebox"
+    },
+    {
+      "name": "FireboxOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "firebox_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LitFireboxUpdateTick",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lit_firebox_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BoilerClick",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boiler_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BronzeBoiler",
+      "type": "gui",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_boiler_gui"
+    },
+    {
+      "name": "BRonzeBoilerBlock",
+      "type": "block",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "b_ronze_boiler_block"
+    },
+    {
+      "name": "BRonzeBoilerBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "b_ronze_boiler_block_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FuelToSteam",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fuel_to_steam",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BRonzeBoilerBlockUpdateTick",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "b_ronze_boiler_block_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "ticks",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.chemcraft.bronze_dust": "Bronze Dust",
       "block.automachines.carbon_dirt": "Carbon Dirt",
+      "block.chemcraft.firebox": "Firebox",
       "block.automachines.magnetite_dirt_ore": "Magnetite Dirt Ore",
       "block.automachines.pumice_ore": "Pumice Ore",
       "block.automachines.b_furnace_done": "B Furnace Done",
       "block.automachines.new_oak": "Pine Log",
       "item.chemcraft.stone_hoe": "Stone Hoe",
       "item.chemcraft.osmium_crystal": "Osmium Crystal",
+      "block.chemcraft.b_ronze_boiler_block": "BRonze Boiler ",
       "item.chemcraft.coke": "Coke",
       "block.chemcraft.lignin": "Lignin",
       "block.chemcraft.hematite_dirt_ore": "Hematite Dirt Ore",
+      "item.chemcraft.bronze_pickaxe": "Bronze Pickaxe",
       "block.chemcraft.magnetite_dirt_ore": "Magnetite Dirt Ore",
+      "item.chemcraft.bronze_plate": "Bronze Plate",
       "block.chemcraft.polished_ash": "Polished Ash",
       "block.automachines.hematite_dirt_ore": "Hematite Dirt Ore",
       "block.chemcraft.aluminium_ore": "Aluminium Ore",
@@ -1699,10 +2413,12 @@
       "block.chemcraft.nitrocalite_mineral": "Nitrocalite Mineral",
       "block.automachines.platinum_ore": "Platinum Ore",
       "block.chemcraft.ash_block": "Ash Block",
-      "block.chemcraft.concentrator": "Concentrator",
       "block.chemcraft.sulfur_ore": "Sulfur Ore",
+      "block.chemcraft.concentrator": "Concentrator",
+      "block.chemcraft.water_mill": "Water Mill",
       "item.automachines.platinum_ingot": "Platinum Ingot",
       "block.chemcraft.pine_leaves": "Pine Leaves",
+      "block.chemcraft.bronze_pickaxe_filled_iron": "Bronze Pickaxe Filled Iron",
       "block.chemcraft.tree_branch": "Tree Branch",
       "item.chemcraft.lignin_shard": "Lignin Shard",
       "item.automachines.sulfur_acid": "Sulphuric Acid",
@@ -1719,9 +2435,11 @@
       "item.automachines.stone_hoe": "Stone Hoe",
       "item.automachines.lens": "Lens",
       "item.chemcraft.rope": "Rope",
+      "block.chemcraft.electric_generator": "Electric Generator",
       "block.automachines.copper_cable": "Copper Cable",
       "item.chemcraft.stone_axe": "Stone Axe",
       "block.automachines.alloy_furnace": "Alloy Furnace",
+      "item.chemcraft.bronze_pickaxe_head": "Bronze Pickaxe Head",
       "block.chemcraft.nitrocalite_crystal": "Nitrocalite Crystal",
       "item.automachines.blade": "Blade",
       "item.chemcraft.iridium_piece": "Iridium Piece",
@@ -1736,8 +2454,10 @@
       "block.chemcraft.copper_cable": "Copper Cable",
       "item.chemcraft.hematite_piece": "Hematite Ore Piece",
       "item.chemcraft.nitrocalite": "Nitrocalite",
+      "item.chemcraft.copper_dust": "Copper Dust",
       "block.automachines.pine_leaves": "Pine Leaves",
       "item.automachines.stone_axe": "Stone Axe",
+      "item.chemcraft.bronze_ingot": "Bronze Ingot",
       "block.automachines.concentrator": "Concentrator",
       "item.chemcraft.tin_dust": "Tin Dust",
       "block.chemcraft.clay_crucible": "Clay Crucible",
@@ -1750,11 +2470,14 @@
       "block.chemcraft.quartz_ore": "Quartz Ore",
       "block.chemcraft.flint_gravel": "Flint Gravel",
       "block.chemcraft.pumice_ore": "Pumice Ore",
+      "block.chemcraft.bronze_pickaxe_form": "Bronze Pickaxe Form",
       "item.automachines.carbon": "Carbon",
       "item.chemcraft.tin_ingot": "Tin Ingot",
       "item.automachines.thick_stick": "Thick Stick",
       "block.automachines.nitrocalite_crystal": "Nitrocalite Crystal",
+      "block.chemcraft.bronzecrucible": "Bronze Crucible",
       "item.chemcraft.ash": "Ash",
+      "block.chemcraft.tetrahedrite": "Tetrahedrite",
       "itemGroup.tabmod_tab": "Mod Tab",
       "block.chemcraft.sander": "Sander",
       "block.chemcraft.oxidizer": "Oxidizer",
@@ -1763,20 +2486,27 @@
       "block.chemcraft.coke_oven": "Coke Oven",
       "item.chemcraft.obisidian_foam": "Obisidian Foam",
       "advancements.the_beggining.descr": "Obtain the sulphuric acid - a heart of chemistry.",
+      "block.chemcraft.lit_firebox": "Lit Firebox",
       "item.automachines.osmium_crystal": "Osmium Crystal",
       "block.automachines.blast_furnace": "Blast Furnace Form",
       "block.chemcraft.alloy_furnace": "Alloy Furnace",
       "block.automachines.clay_furnace_form": "Clay Furnace Form",
       "block.automachines.macerator": "Macerator",
+      "item.chemcraft.iron_pickaxe_head": "Iron Pickaxe Head",
       "block.chemcraft.limestone": "Limestone",
+      "block.chemcraft.bronze_pickaxe_filled_bronze": "Bronze Pickaxe Filled Bronze",
       "item.chemcraft.casitterite_ore_piece": "Casitterite Ore Piece",
+      "item.chemcraft.tetrahedrite_ore_piece": "Tetrahedrite Ore Piece",
+      "item.chemcraft.copper_ingot": "Copper Ingot",
       "item.automachines.pumice": "Pumice",
       "block.chemcraft.new_oak": "Pine Log",
       "item.automachines.aluminium_ingot": "Aluminium Ingot",
+      "item.chemcraft.bronze_crusher": "Bronze Crusher",
       "item.automachines.hematite_piece": "Hematite Ore Piece",
       "item.chemcraft.clay_brick_form": "Clay Brick Form",
       "advancements.the_beggining.title": "Chemist Journeyman",
       "item.chemcraft.platinum_ingot": "Platinum Ingot",
+      "item.chemcraft.iron_pickaxe": "Iron Pickaxe",
       "block.automachines.sulfur_ore": "Sulfur Ore",
       "item.chemcraft.sulfur": "Sulfur",
       "item.automachines.steel": "Steel Ingot",
@@ -1810,5 +2540,5 @@
     "modElementsPackage": "net.beriff.chemistrycraft",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000322116
+  "mcreatorVersion": 202000425621
 }
