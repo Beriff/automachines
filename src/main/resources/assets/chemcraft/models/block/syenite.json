@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/syenite",
+    "up": "chemcraft:blocks/syenite",
+    "north": "chemcraft:blocks/syenite",
+    "east": "chemcraft:blocks/syenite",
+    "south": "chemcraft:blocks/syenite",
+    "west": "chemcraft:blocks/syenite",
+    "particle": "chemcraft:blocks/syenite"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/dolerite",
+    "up": "chemcraft:blocks/dolerite",
+    "north": "chemcraft:blocks/dolerite",
+    "east": "chemcraft:blocks/dolerite",
+    "south": "chemcraft:blocks/dolerite",
+    "west": "chemcraft:blocks/dolerite",
+    "particle": "chemcraft:blocks/dolerite"
+  }
+}

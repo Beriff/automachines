@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/gabbro",
+    "up": "chemcraft:blocks/gabbro",
+    "north": "chemcraft:blocks/gabbro",
+    "east": "chemcraft:blocks/gabbro",
+    "south": "chemcraft:blocks/gabbro",
+    "west": "chemcraft:blocks/gabbro",
+    "particle": "chemcraft:blocks/gabbro"
+  }
+}

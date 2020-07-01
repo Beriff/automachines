@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/scoria",
+    "up": "chemcraft:blocks/scoria",
+    "north": "chemcraft:blocks/scoria",
+    "east": "chemcraft:blocks/scoria",
+    "south": "chemcraft:blocks/scoria",
+    "west": "chemcraft:blocks/scoria",
+    "particle": "chemcraft:blocks/scoria"
+  }
+}

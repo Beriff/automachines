@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/schist",
+    "up": "chemcraft:blocks/schist",
+    "north": "chemcraft:blocks/schist",
+    "east": "chemcraft:blocks/schist",
+    "south": "chemcraft:blocks/schist",
+    "west": "chemcraft:blocks/schist",
+    "particle": "chemcraft:blocks/schist"
+  }
+}

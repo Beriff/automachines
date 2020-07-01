@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/migmatite",
+    "up": "chemcraft:blocks/migmatite",
+    "north": "chemcraft:blocks/migmatite",
+    "east": "chemcraft:blocks/migmatite",
+    "south": "chemcraft:blocks/migmatite",
+    "west": "chemcraft:blocks/migmatite",
+    "particle": "chemcraft:blocks/migmatite"
+  }
+}

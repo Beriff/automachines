@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/serpentinite",
+    "up": "chemcraft:blocks/serpentinite",
+    "north": "chemcraft:blocks/serpentinite",
+    "east": "chemcraft:blocks/serpentinite",
+    "south": "chemcraft:blocks/serpentinite",
+    "west": "chemcraft:blocks/serpentinite",
+    "particle": "chemcraft:blocks/serpentinite"
+  }
+}

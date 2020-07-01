@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "chemcraft:gabbro"
+    },
+    "title": {
+      "translate": "advancements.it_isnt_all_about_chem.title"
+    },
+    "description": {
+      "translate": "advancements.it_isnt_all_about_chem.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "it_isnt_all_about_chem": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "chemcraft:gabbro_mountains"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "chemcraft:the_beggining"
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/gneiss",
+    "up": "chemcraft:blocks/gneiss",
+    "north": "chemcraft:blocks/gneiss",
+    "east": "chemcraft:blocks/gneiss",
+    "south": "chemcraft:blocks/gneiss",
+    "west": "chemcraft:blocks/gneiss",
+    "particle": "chemcraft:blocks/gneiss"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/bricks_uv",
+    "up": "chemcraft:blocks/bricks_uv",
+    "north": "chemcraft:blocks/steam_extruder",
+    "east": "chemcraft:blocks/bricks_uv",
+    "south": "chemcraft:blocks/bricks_uv",
+    "west": "chemcraft:blocks/bricks_uv",
+    "particle": "chemcraft:blocks/bricks_uv"
+  }
+}

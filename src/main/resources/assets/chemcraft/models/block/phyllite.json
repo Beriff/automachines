@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/phyllite",
+    "up": "chemcraft:blocks/phyllite",
+    "north": "chemcraft:blocks/phyllite",
+    "east": "chemcraft:blocks/phyllite",
+    "south": "chemcraft:blocks/phyllite",
+    "west": "chemcraft:blocks/phyllite",
+    "particle": "chemcraft:blocks/phyllite"
+  }
+}

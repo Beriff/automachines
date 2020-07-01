@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/amphibolite",
+    "up": "chemcraft:blocks/amphibolite",
+    "north": "chemcraft:blocks/amphibolite",
+    "east": "chemcraft:blocks/amphibolite",
+    "south": "chemcraft:blocks/amphibolite",
+    "west": "chemcraft:blocks/amphibolite",
+    "particle": "chemcraft:blocks/amphibolite"
+  }
+}

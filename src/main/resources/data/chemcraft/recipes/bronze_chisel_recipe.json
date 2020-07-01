@@ -1,0 +1,19 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chemcraft:bronze_crusher"
+    },
+    {
+      "item": "chemcraft:bronze_ingot"
+    },
+    {
+      "item": "chemcraft:thick_stick"
+    }
+  ],
+  "result": {
+    "item": "chemcraft:chisel",
+    "count": 1
+  }
+}

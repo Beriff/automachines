@@ -160,7 +160,7 @@ public class BRonzeBoilerBlockBlock extends ChemcraftModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("BRonze Boiler ");
+						return new StringTextComponent("Bronze Boiler ");
 					}
 
 					@Override
@@ -234,7 +234,7 @@ public class BRonzeBoilerBlockBlock extends ChemcraftModElements.ModElement {
 	}
 
 	public static class CustomTileEntity extends LockableLootTileEntity implements ISidedInventory {
-		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(1, ItemStack.EMPTY);
+		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(3, ItemStack.EMPTY);
 		protected CustomTileEntity() {
 			super(tileEntityType);
 		}
@@ -302,7 +302,7 @@ public class BRonzeBoilerBlockBlock extends ChemcraftModElements.ModElement {
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("BRonze Boiler ");
+			return new StringTextComponent("Bronze Boiler ");
 		}
 
 		@Override

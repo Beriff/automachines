@@ -33,7 +33,6 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
-import net.beriff.chemistrycraft.procedures.FuelToSteamProcedure;
 import net.beriff.chemistrycraft.ChemcraftModElements;
 import net.beriff.chemistrycraft.ChemcraftMod;
 
@@ -81,7 +80,7 @@ public class BronzeBoilerGui extends ChemcraftModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(1);
+			this.internal = new ItemStackHandler(3);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -111,11 +110,14 @@ public class BronzeBoilerGui extends ChemcraftModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 79, 57) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 61, 57) {
+			}));
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 97, 57) {
+			}));
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 151, 57) {
 				@Override
-				public void onSlotChanged() {
-					super.onSlotChanged();
-					GuiContainerMod.this.slotChanged(0, 0, 0);
+				public boolean isItemValid(ItemStack stack) {
+					return false;
 				}
 			}));
 			int si;
@@ -143,18 +145,18 @@ public class BronzeBoilerGui extends ChemcraftModElements.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 1) {
-					if (!this.mergeItemStack(itemstack1, 1, this.inventorySlots.size(), true)) {
+				if (index < 3) {
+					if (!this.mergeItemStack(itemstack1, 3, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 1, false)) {
-					if (index < 1 + 27) {
-						if (!this.mergeItemStack(itemstack1, 1 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 3, false)) {
+					if (index < 3 + 27) {
+						if (!this.mergeItemStack(itemstack1, 3 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 1, 1 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 3, 3 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -329,14 +331,22 @@ public class BronzeBoilerGui extends ChemcraftModElements.ModElement {
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
 			this.font.drawString("Bronze Boiler", 60, 2, -12566464);
-			this.font.drawString("" + (new Object() {
+			this.font.drawString("Steam Level: " + (new Object() {
 				public double getValue(BlockPos pos, String tag) {
 					TileEntity tileEntity = world.getTileEntity(pos);
 					if (tileEntity != null)
 						return tileEntity.getTileData().getDouble(tag);
 					return 0;
 				}
-			}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) + "", 78, 17, -12566464);
+			}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) + "", 16, 11, -12566464);
+			this.font.drawString("Water Level: " + (new Object() {
+				public double getValue(BlockPos pos, String tag) {
+					TileEntity tileEntity = world.getTileEntity(pos);
+					if (tileEntity != null)
+						return tileEntity.getTileData().getDouble(tag);
+					return 0;
+				}
+			}.getValue(new BlockPos((int) x, (int) y, (int) z), "water")) + "", 17, 23, -12566464);
 		}
 
 		@Override
@@ -445,15 +455,5 @@ public class BronzeBoilerGui extends ChemcraftModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
-		if (slotID == 0 && changeType == 0) {
-			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				FuelToSteamProcedure.executeProcedure($_dependencies);
-			}
-		}
 	}
 }

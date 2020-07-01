@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/mylonite",
+    "up": "chemcraft:blocks/mylonite",
+    "north": "chemcraft:blocks/mylonite",
+    "east": "chemcraft:blocks/mylonite",
+    "south": "chemcraft:blocks/mylonite",
+    "west": "chemcraft:blocks/mylonite",
+    "particle": "chemcraft:blocks/mylonite"
+  }
+}

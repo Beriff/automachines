@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "chemcraft:b_ronze_boiler_block"
+    },
+    "title": {
+      "translate": "advancements.steam_power.title"
+    },
+    "description": {
+      "translate": "advancements.steam_power.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "steam_power": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "chemcraft:b_ronze_boiler_block",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "chemcraft:the_beggining"
+}

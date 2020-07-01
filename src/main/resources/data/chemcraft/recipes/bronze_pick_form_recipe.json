@@ -2,18 +2,21 @@
   "group": "chemcraft",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "0",
-    "1",
-    "2"
+    "01",
+    "2 ",
+    "4 "
   ],
   "key": {
     "0": {
       "item": "chemcraft:bronze_crusher"
     },
     "1": {
-      "item": "chemcraft:bronze_plate"
+      "item": "chemcraft:chisel"
     },
     "2": {
+      "item": "chemcraft:bronze_plate"
+    },
+    "4": {
       "item": "chemcraft:flint_pickaxe"
     }
   },

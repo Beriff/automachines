@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/pegmatite",
+    "up": "chemcraft:blocks/pegmatite",
+    "north": "chemcraft:blocks/pegmatite",
+    "east": "chemcraft:blocks/pegmatite",
+    "south": "chemcraft:blocks/pegmatite",
+    "west": "chemcraft:blocks/pegmatite",
+    "particle": "chemcraft:blocks/pegmatite"
+  }
+}

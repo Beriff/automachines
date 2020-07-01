@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/basalt",
+    "up": "chemcraft:blocks/basalt",
+    "north": "chemcraft:blocks/basalt",
+    "east": "chemcraft:blocks/basalt",
+    "south": "chemcraft:blocks/basalt",
+    "west": "chemcraft:blocks/basalt",
+    "particle": "chemcraft:blocks/basalt"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "chemcraft:custom/node",
+  "textures": {
+    "all": "chemcraft:blocks/bronze_block",
+    "particle": "chemcraft:blocks/bronze_block",
+    "bronze_block": "chemcraft:blocks/bronze_block"
+  }
+}
