@@ -8,7 +8,6 @@ import net.minecraft.state.DirectionProperty;
 import net.minecraft.block.BlockState;
 
 import net.beriff.chemistrycraft.block.BronzeSteamPipeBlock;
-import net.beriff.chemistrycraft.block.BronzeNodeBlock;
 import net.beriff.chemistrycraft.block.BRonzeBoilerBlockBlock;
 import net.beriff.chemistrycraft.ChemcraftModElements;
 
@@ -60,17 +59,8 @@ public class BronzeSteamPipeUpdateTickProcedure extends ChemcraftModElements.Mod
 				}
 			}
 		}.getDirection(new BlockPos((int) x, (int) y, (int) z))) == Direction.EAST))) {
-			if ((((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)))).getBlock() == BRonzeBoilerBlockBlock.block.getDefaultState()
-					.getBlock())
-					|| (((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)))).getBlock() == BronzeNodeBlock.block.getDefaultState()
-							.getBlock()) && ((new Object() {
-								public double getValue(BlockPos pos, String tag) {
-									TileEntity tileEntity = world.getTileEntity(pos);
-									if (tileEntity != null)
-										return tileEntity.getTileData().getDouble(tag);
-									return -1;
-								}
-							}.getValue(new BlockPos((int) x, (int) y, (int) (z + 1)), "x-recieve")) == 1)))) {
+			if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)))).getBlock() == BRonzeBoilerBlockBlock.block.getDefaultState()
+					.getBlock())) {
 				if (((new Object() {
 					public double getValue(BlockPos pos, String tag) {
 						TileEntity tileEntity = world.getTileEntity(pos);
@@ -79,21 +69,6 @@ public class BronzeSteamPipeUpdateTickProcedure extends ChemcraftModElements.Mod
 						return -1;
 					}
 				}.getValue(new BlockPos((int) x, (int) y, (int) (z + 1)), "steam")) > 0)) {
-					if (!world.isRemote) {
-						BlockPos _bp = new BlockPos((int) x, (int) y, (int) (z + 1));
-						TileEntity _tileEntity = world.getTileEntity(_bp);
-						BlockState _bs = world.getBlockState(_bp);
-						if (_tileEntity != null)
-							_tileEntity.getTileData().putDouble("steam", ((new Object() {
-								public double getValue(BlockPos pos, String tag) {
-									TileEntity tileEntity = world.getTileEntity(pos);
-									if (tileEntity != null)
-										return tileEntity.getTileData().getDouble(tag);
-									return -1;
-								}
-							}.getValue(new BlockPos((int) x, (int) y, (int) (z + 1)), "steam")) - 1));
-						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
-					}
 					if (!world.isRemote) {
 						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 						TileEntity _tileEntity = world.getTileEntity(_bp);
@@ -109,8 +84,23 @@ public class BronzeSteamPipeUpdateTickProcedure extends ChemcraftModElements.Mod
 							}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) + 1));
 						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
 					}
+					if (!world.isRemote) {
+						BlockPos _bp = new BlockPos((int) x, (int) y, (int) (z + 1));
+						TileEntity _tileEntity = world.getTileEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_tileEntity != null)
+							_tileEntity.getTileData().putDouble("steam", ((new Object() {
+								public double getValue(BlockPos pos, String tag) {
+									TileEntity tileEntity = world.getTileEntity(pos);
+									if (tileEntity != null)
+										return tileEntity.getTileData().getDouble(tag);
+									return -1;
+								}
+							}.getValue(new BlockPos((int) x, (int) y, (int) (z + 1)), "steam")) - 1));
+						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+					}
 				}
-				if (((((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 1)))).getBlock() == BronzeSteamPipeBlock.block.getDefaultState()
+				if ((((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 1)))).getBlock() == BronzeSteamPipeBlock.block.getDefaultState()
 						.getBlock()) && ((new Object() {
 							public double getValue(BlockPos pos, String tag) {
 								TileEntity tileEntity = world.getTileEntity(pos);
@@ -118,16 +108,7 @@ public class BronzeSteamPipeUpdateTickProcedure extends ChemcraftModElements.Mod
 									return tileEntity.getTileData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) > 0))
-						|| (((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 1)))).getBlock() == BronzeNodeBlock.block
-								.getDefaultState().getBlock()) && ((new Object() {
-									public double getValue(BlockPos pos, String tag) {
-										TileEntity tileEntity = world.getTileEntity(pos);
-										if (tileEntity != null)
-											return tileEntity.getTileData().getDouble(tag);
-										return -1;
-									}
-								}.getValue(new BlockPos((int) x, (int) y, (int) (z - 1)), "x-recieve")) == 0)))) {
+						}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) > 0))) {
 					if (!world.isRemote) {
 						BlockPos _bp = new BlockPos((int) x, (int) y, (int) (z - 1));
 						TileEntity _tileEntity = world.getTileEntity(_bp);
@@ -158,18 +139,17 @@ public class BronzeSteamPipeUpdateTickProcedure extends ChemcraftModElements.Mod
 							}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) - 1));
 						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
 					}
+					if (!world.isRemote) {
+						BlockPos _bp = new BlockPos((int) x, (int) y, (int) (z - 1));
+						TileEntity _tileEntity = world.getTileEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_tileEntity != null)
+							_tileEntity.getTileData().putString("flow", "z-");
+						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+					}
 				}
-			} else if ((((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 1)))).getBlock() == BRonzeBoilerBlockBlock.block
-					.getDefaultState().getBlock())
-					|| (((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 1)))).getBlock() == BronzeNodeBlock.block.getDefaultState()
-							.getBlock()) && ((new Object() {
-								public double getValue(BlockPos pos, String tag) {
-									TileEntity tileEntity = world.getTileEntity(pos);
-									if (tileEntity != null)
-										return tileEntity.getTileData().getDouble(tag);
-									return -1;
-								}
-							}.getValue(new BlockPos((int) x, (int) y, (int) (z - 1)), "x-recieve")) == 1)))) {
+			} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 1)))).getBlock() == BRonzeBoilerBlockBlock.block
+					.getDefaultState().getBlock())) {
 				if (((new Object() {
 					public double getValue(BlockPos pos, String tag) {
 						TileEntity tileEntity = world.getTileEntity(pos);
@@ -209,7 +189,7 @@ public class BronzeSteamPipeUpdateTickProcedure extends ChemcraftModElements.Mod
 						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
 					}
 				}
-				if (((((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)))).getBlock() == BronzeSteamPipeBlock.block.getDefaultState()
+				if ((((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)))).getBlock() == BronzeSteamPipeBlock.block.getDefaultState()
 						.getBlock()) && ((new Object() {
 							public double getValue(BlockPos pos, String tag) {
 								TileEntity tileEntity = world.getTileEntity(pos);
@@ -217,16 +197,7 @@ public class BronzeSteamPipeUpdateTickProcedure extends ChemcraftModElements.Mod
 									return tileEntity.getTileData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) > 0))
-						|| (((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)))).getBlock() == BronzeNodeBlock.block
-								.getDefaultState().getBlock()) && ((new Object() {
-									public double getValue(BlockPos pos, String tag) {
-										TileEntity tileEntity = world.getTileEntity(pos);
-										if (tileEntity != null)
-											return tileEntity.getTileData().getDouble(tag);
-										return -1;
-									}
-								}.getValue(new BlockPos((int) x, (int) y, (int) (z + 1)), "x-recieve")) == 0)))) {
+						}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) > 0))) {
 					if (!world.isRemote) {
 						BlockPos _bp = new BlockPos((int) x, (int) y, (int) (z + 1));
 						TileEntity _tileEntity = world.getTileEntity(_bp);
@@ -257,6 +228,122 @@ public class BronzeSteamPipeUpdateTickProcedure extends ChemcraftModElements.Mod
 							}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) - 1));
 						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
 					}
+					if (!world.isRemote) {
+						BlockPos _bp = new BlockPos((int) x, (int) y, (int) (z + 1));
+						TileEntity _tileEntity = world.getTileEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_tileEntity != null)
+							_tileEntity.getTileData().putString("flow", "z+");
+						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+					}
+				}
+			} else {
+				if (((((new Object() {
+					public String getValue(BlockPos pos, String tag) {
+						TileEntity tileEntity = world.getTileEntity(pos);
+						if (tileEntity != null)
+							return tileEntity.getTileData().getString(tag);
+						return "";
+					}
+				}.getValue(new BlockPos((int) x, (int) y, (int) z), "flow"))).equals("z+")) && ((new Object() {
+					public double getValue(BlockPos pos, String tag) {
+						TileEntity tileEntity = world.getTileEntity(pos);
+						if (tileEntity != null)
+							return tileEntity.getTileData().getDouble(tag);
+						return -1;
+					}
+				}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) > 0))) {
+					if (!world.isRemote) {
+						BlockPos _bp = new BlockPos((int) x, (int) y, (int) (z + 1));
+						TileEntity _tileEntity = world.getTileEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_tileEntity != null)
+							_tileEntity.getTileData().putDouble("steam", ((new Object() {
+								public double getValue(BlockPos pos, String tag) {
+									TileEntity tileEntity = world.getTileEntity(pos);
+									if (tileEntity != null)
+										return tileEntity.getTileData().getDouble(tag);
+									return -1;
+								}
+							}.getValue(new BlockPos((int) x, (int) y, (int) (z + 1)), "steam")) + 1));
+						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+					}
+					if (!world.isRemote) {
+						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+						TileEntity _tileEntity = world.getTileEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_tileEntity != null)
+							_tileEntity.getTileData().putDouble("steam", ((new Object() {
+								public double getValue(BlockPos pos, String tag) {
+									TileEntity tileEntity = world.getTileEntity(pos);
+									if (tileEntity != null)
+										return tileEntity.getTileData().getDouble(tag);
+									return -1;
+								}
+							}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) - 1));
+						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+					}
+					if (!world.isRemote) {
+						BlockPos _bp = new BlockPos((int) x, (int) y, (int) (z + 1));
+						TileEntity _tileEntity = world.getTileEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_tileEntity != null)
+							_tileEntity.getTileData().putString("flow", "z+");
+						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+					}
+				} else if (((((new Object() {
+					public String getValue(BlockPos pos, String tag) {
+						TileEntity tileEntity = world.getTileEntity(pos);
+						if (tileEntity != null)
+							return tileEntity.getTileData().getString(tag);
+						return "";
+					}
+				}.getValue(new BlockPos((int) x, (int) y, (int) z), "flow"))).equals("z-")) && ((new Object() {
+					public double getValue(BlockPos pos, String tag) {
+						TileEntity tileEntity = world.getTileEntity(pos);
+						if (tileEntity != null)
+							return tileEntity.getTileData().getDouble(tag);
+						return -1;
+					}
+				}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) > 0))) {
+					if (!world.isRemote) {
+						BlockPos _bp = new BlockPos((int) x, (int) y, (int) (z - 1));
+						TileEntity _tileEntity = world.getTileEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_tileEntity != null)
+							_tileEntity.getTileData().putDouble("steam", ((new Object() {
+								public double getValue(BlockPos pos, String tag) {
+									TileEntity tileEntity = world.getTileEntity(pos);
+									if (tileEntity != null)
+										return tileEntity.getTileData().getDouble(tag);
+									return -1;
+								}
+							}.getValue(new BlockPos((int) x, (int) y, (int) (z - 1)), "steam")) + 1));
+						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+					}
+					if (!world.isRemote) {
+						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+						TileEntity _tileEntity = world.getTileEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_tileEntity != null)
+							_tileEntity.getTileData().putDouble("steam", ((new Object() {
+								public double getValue(BlockPos pos, String tag) {
+									TileEntity tileEntity = world.getTileEntity(pos);
+									if (tileEntity != null)
+										return tileEntity.getTileData().getDouble(tag);
+									return -1;
+								}
+							}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) - 1));
+						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+					}
+					if (!world.isRemote) {
+						BlockPos _bp = new BlockPos((int) x, (int) y, (int) (z - 1));
+						TileEntity _tileEntity = world.getTileEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_tileEntity != null)
+							_tileEntity.getTileData().putString("flow", "z-");
+						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+					}
 				}
 			}
 		} else if ((((new Object() {
@@ -280,17 +367,8 @@ public class BronzeSteamPipeUpdateTickProcedure extends ChemcraftModElements.Mod
 				}
 			}
 		}.getDirection(new BlockPos((int) x, (int) y, (int) z))) == Direction.SOUTH))) {
-			if ((((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) z))).getBlock() == BRonzeBoilerBlockBlock.block.getDefaultState()
-					.getBlock())
-					|| (((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) z))).getBlock() == BronzeNodeBlock.block.getDefaultState()
-							.getBlock()) && ((new Object() {
-								public double getValue(BlockPos pos, String tag) {
-									TileEntity tileEntity = world.getTileEntity(pos);
-									if (tileEntity != null)
-										return tileEntity.getTileData().getDouble(tag);
-									return -1;
-								}
-							}.getValue(new BlockPos((int) (x + 1), (int) y, (int) z), "x-recieve")) == 0)))) {
+			if (((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) z))).getBlock() == BRonzeBoilerBlockBlock.block.getDefaultState()
+					.getBlock())) {
 				if (((new Object() {
 					public double getValue(BlockPos pos, String tag) {
 						TileEntity tileEntity = world.getTileEntity(pos);
@@ -330,7 +408,7 @@ public class BronzeSteamPipeUpdateTickProcedure extends ChemcraftModElements.Mod
 						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
 					}
 				}
-				if (((((world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) z))).getBlock() == BronzeSteamPipeBlock.block.getDefaultState()
+				if ((((world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) z))).getBlock() == BronzeSteamPipeBlock.block.getDefaultState()
 						.getBlock()) && ((new Object() {
 							public double getValue(BlockPos pos, String tag) {
 								TileEntity tileEntity = world.getTileEntity(pos);
@@ -338,16 +416,7 @@ public class BronzeSteamPipeUpdateTickProcedure extends ChemcraftModElements.Mod
 									return tileEntity.getTileData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) > 0))
-						|| (((world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) z))).getBlock() == BronzeNodeBlock.block
-								.getDefaultState().getBlock()) && ((new Object() {
-									public double getValue(BlockPos pos, String tag) {
-										TileEntity tileEntity = world.getTileEntity(pos);
-										if (tileEntity != null)
-											return tileEntity.getTileData().getDouble(tag);
-										return -1;
-									}
-								}.getValue(new BlockPos((int) (x - 1), (int) y, (int) z), "x-recieve")) == 1)))) {
+						}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) > 0))) {
 					if (!world.isRemote) {
 						BlockPos _bp = new BlockPos((int) (x - 1), (int) y, (int) z);
 						TileEntity _tileEntity = world.getTileEntity(_bp);
@@ -378,18 +447,17 @@ public class BronzeSteamPipeUpdateTickProcedure extends ChemcraftModElements.Mod
 							}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) - 1));
 						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
 					}
+					if (!world.isRemote) {
+						BlockPos _bp = new BlockPos((int) (x - 1), (int) y, (int) z);
+						TileEntity _tileEntity = world.getTileEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_tileEntity != null)
+							_tileEntity.getTileData().putString("flow", "x-");
+						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+					}
 				}
-			} else if ((((world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) z))).getBlock() == BRonzeBoilerBlockBlock.block
-					.getDefaultState().getBlock())
-					|| (((world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) z))).getBlock() == BronzeNodeBlock.block.getDefaultState()
-							.getBlock()) && ((new Object() {
-								public double getValue(BlockPos pos, String tag) {
-									TileEntity tileEntity = world.getTileEntity(pos);
-									if (tileEntity != null)
-										return tileEntity.getTileData().getDouble(tag);
-									return -1;
-								}
-							}.getValue(new BlockPos((int) (x - 1), (int) y, (int) z), "x-recieve")) == 0)))) {
+			} else if (((world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) z))).getBlock() == BRonzeBoilerBlockBlock.block
+					.getDefaultState().getBlock())) {
 				if (((new Object() {
 					public double getValue(BlockPos pos, String tag) {
 						TileEntity tileEntity = world.getTileEntity(pos);
@@ -429,7 +497,7 @@ public class BronzeSteamPipeUpdateTickProcedure extends ChemcraftModElements.Mod
 						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
 					}
 				}
-				if (((((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) z))).getBlock() == BronzeSteamPipeBlock.block.getDefaultState()
+				if ((((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) z))).getBlock() == BronzeSteamPipeBlock.block.getDefaultState()
 						.getBlock()) && ((new Object() {
 							public double getValue(BlockPos pos, String tag) {
 								TileEntity tileEntity = world.getTileEntity(pos);
@@ -437,16 +505,7 @@ public class BronzeSteamPipeUpdateTickProcedure extends ChemcraftModElements.Mod
 									return tileEntity.getTileData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) > 0))
-						|| (((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) z))).getBlock() == BronzeNodeBlock.block
-								.getDefaultState().getBlock()) && ((new Object() {
-									public double getValue(BlockPos pos, String tag) {
-										TileEntity tileEntity = world.getTileEntity(pos);
-										if (tileEntity != null)
-											return tileEntity.getTileData().getDouble(tag);
-										return -1;
-									}
-								}.getValue(new BlockPos((int) (x + 1), (int) y, (int) z), "x-recieve")) == 1)))) {
+						}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) > 0))) {
 					if (!world.isRemote) {
 						BlockPos _bp = new BlockPos((int) (x + 1), (int) y, (int) z);
 						TileEntity _tileEntity = world.getTileEntity(_bp);
@@ -475,6 +534,122 @@ public class BronzeSteamPipeUpdateTickProcedure extends ChemcraftModElements.Mod
 									return -1;
 								}
 							}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) - 1));
+						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+					}
+					if (!world.isRemote) {
+						BlockPos _bp = new BlockPos((int) (x - 1), (int) y, (int) z);
+						TileEntity _tileEntity = world.getTileEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_tileEntity != null)
+							_tileEntity.getTileData().putString("flow", "x+");
+						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+					}
+				}
+			} else {
+				if (((((new Object() {
+					public String getValue(BlockPos pos, String tag) {
+						TileEntity tileEntity = world.getTileEntity(pos);
+						if (tileEntity != null)
+							return tileEntity.getTileData().getString(tag);
+						return "";
+					}
+				}.getValue(new BlockPos((int) x, (int) y, (int) z), "flow"))).equals("x+")) && ((new Object() {
+					public double getValue(BlockPos pos, String tag) {
+						TileEntity tileEntity = world.getTileEntity(pos);
+						if (tileEntity != null)
+							return tileEntity.getTileData().getDouble(tag);
+						return -1;
+					}
+				}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) > 0))) {
+					if (!world.isRemote) {
+						BlockPos _bp = new BlockPos((int) (x + 1), (int) y, (int) z);
+						TileEntity _tileEntity = world.getTileEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_tileEntity != null)
+							_tileEntity.getTileData().putDouble("steam", ((new Object() {
+								public double getValue(BlockPos pos, String tag) {
+									TileEntity tileEntity = world.getTileEntity(pos);
+									if (tileEntity != null)
+										return tileEntity.getTileData().getDouble(tag);
+									return -1;
+								}
+							}.getValue(new BlockPos((int) (x + 1), (int) y, (int) z), "steam")) + 1));
+						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+					}
+					if (!world.isRemote) {
+						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+						TileEntity _tileEntity = world.getTileEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_tileEntity != null)
+							_tileEntity.getTileData().putDouble("steam", ((new Object() {
+								public double getValue(BlockPos pos, String tag) {
+									TileEntity tileEntity = world.getTileEntity(pos);
+									if (tileEntity != null)
+										return tileEntity.getTileData().getDouble(tag);
+									return -1;
+								}
+							}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) - 1));
+						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+					}
+					if (!world.isRemote) {
+						BlockPos _bp = new BlockPos((int) (x + 1), (int) y, (int) z);
+						TileEntity _tileEntity = world.getTileEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_tileEntity != null)
+							_tileEntity.getTileData().putString("flow", "x+");
+						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+					}
+				} else if (((((new Object() {
+					public String getValue(BlockPos pos, String tag) {
+						TileEntity tileEntity = world.getTileEntity(pos);
+						if (tileEntity != null)
+							return tileEntity.getTileData().getString(tag);
+						return "";
+					}
+				}.getValue(new BlockPos((int) x, (int) y, (int) z), "flow"))).equals("x-")) && ((new Object() {
+					public double getValue(BlockPos pos, String tag) {
+						TileEntity tileEntity = world.getTileEntity(pos);
+						if (tileEntity != null)
+							return tileEntity.getTileData().getDouble(tag);
+						return -1;
+					}
+				}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) > 0))) {
+					if (!world.isRemote) {
+						BlockPos _bp = new BlockPos((int) (x - 1), (int) y, (int) z);
+						TileEntity _tileEntity = world.getTileEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_tileEntity != null)
+							_tileEntity.getTileData().putDouble("steam", ((new Object() {
+								public double getValue(BlockPos pos, String tag) {
+									TileEntity tileEntity = world.getTileEntity(pos);
+									if (tileEntity != null)
+										return tileEntity.getTileData().getDouble(tag);
+									return -1;
+								}
+							}.getValue(new BlockPos((int) (x - 1), (int) y, (int) z), "steam")) + 1));
+						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+					}
+					if (!world.isRemote) {
+						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+						TileEntity _tileEntity = world.getTileEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_tileEntity != null)
+							_tileEntity.getTileData().putDouble("steam", ((new Object() {
+								public double getValue(BlockPos pos, String tag) {
+									TileEntity tileEntity = world.getTileEntity(pos);
+									if (tileEntity != null)
+										return tileEntity.getTileData().getDouble(tag);
+									return -1;
+								}
+							}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) - 1));
+						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+					}
+					if (!world.isRemote) {
+						BlockPos _bp = new BlockPos((int) (x - 1), (int) y, (int) z);
+						TileEntity _tileEntity = world.getTileEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_tileEntity != null)
+							_tileEntity.getTileData().putString("flow", "x-");
 						world.notifyBlockUpdate(_bp, _bs, _bs, 3);
 					}
 				}

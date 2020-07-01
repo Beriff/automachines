@@ -129,7 +129,7 @@ public class BronzeNodeUpdateTickProcedure extends ChemcraftModElements.ModEleme
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(new BlockPos((int) (x - 1), (int) y, (int) z), "steam")) > 0))) {
+					}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) > 0))) {
 				if (!world.isRemote) {
 					BlockPos _bp = new BlockPos((int) (x - 1), (int) y, (int) z);
 					TileEntity _tileEntity = world.getTileEntity(_bp);
@@ -160,6 +160,14 @@ public class BronzeNodeUpdateTickProcedure extends ChemcraftModElements.ModEleme
 						}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) - 1));
 					world.notifyBlockUpdate(_bp, _bs, _bs, 3);
 				}
+				if (!world.isRemote) {
+					BlockPos _bp = new BlockPos((int) (x - 1), (int) y, (int) z);
+					TileEntity _tileEntity = world.getTileEntity(_bp);
+					BlockState _bs = world.getBlockState(_bp);
+					if (_tileEntity != null)
+						_tileEntity.getTileData().putString("flow", "x-");
+					world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+				}
 			}
 			if ((((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) z))).getBlock() == BronzeSteamPipeBlock.block.getDefaultState()
 					.getBlock()) && ((new Object() {
@@ -169,7 +177,7 @@ public class BronzeNodeUpdateTickProcedure extends ChemcraftModElements.ModEleme
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(new BlockPos((int) (x + 1), (int) y, (int) z), "steam")) > 0))) {
+					}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) > 0))) {
 				if (!world.isRemote) {
 					BlockPos _bp = new BlockPos((int) (x + 1), (int) y, (int) z);
 					TileEntity _tileEntity = world.getTileEntity(_bp);
@@ -198,6 +206,14 @@ public class BronzeNodeUpdateTickProcedure extends ChemcraftModElements.ModEleme
 								return -1;
 							}
 						}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) - 1));
+					world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+				}
+				if (!world.isRemote) {
+					BlockPos _bp = new BlockPos((int) (x + 1), (int) y, (int) z);
+					TileEntity _tileEntity = world.getTileEntity(_bp);
+					BlockState _bs = world.getBlockState(_bp);
+					if (_tileEntity != null)
+						_tileEntity.getTileData().putString("flow", "x+");
 					world.notifyBlockUpdate(_bp, _bs, _bs, 3);
 				}
 			}
@@ -296,7 +312,7 @@ public class BronzeNodeUpdateTickProcedure extends ChemcraftModElements.ModEleme
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(new BlockPos((int) x, (int) y, (int) (z - 1)), "steam")) > 0))) {
+					}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) > 0))) {
 				if (!world.isRemote) {
 					BlockPos _bp = new BlockPos((int) x, (int) y, (int) (z - 1));
 					TileEntity _tileEntity = world.getTileEntity(_bp);
@@ -327,6 +343,14 @@ public class BronzeNodeUpdateTickProcedure extends ChemcraftModElements.ModEleme
 						}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) - 1));
 					world.notifyBlockUpdate(_bp, _bs, _bs, 3);
 				}
+				if (!world.isRemote) {
+					BlockPos _bp = new BlockPos((int) x, (int) y, (int) (z - 1));
+					TileEntity _tileEntity = world.getTileEntity(_bp);
+					BlockState _bs = world.getBlockState(_bp);
+					if (_tileEntity != null)
+						_tileEntity.getTileData().putString("flow", "z-");
+					world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+				}
 			}
 			if ((((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)))).getBlock() == BronzeSteamPipeBlock.block.getDefaultState()
 					.getBlock()) && ((new Object() {
@@ -336,7 +360,7 @@ public class BronzeNodeUpdateTickProcedure extends ChemcraftModElements.ModEleme
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(new BlockPos((int) x, (int) y, (int) (z + 1)), "steam")) > 0))) {
+					}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) > 0))) {
 				if (!world.isRemote) {
 					BlockPos _bp = new BlockPos((int) x, (int) y, (int) (z + 1));
 					TileEntity _tileEntity = world.getTileEntity(_bp);
@@ -365,6 +389,14 @@ public class BronzeNodeUpdateTickProcedure extends ChemcraftModElements.ModEleme
 								return -1;
 							}
 						}.getValue(new BlockPos((int) x, (int) y, (int) z), "steam")) - 1));
+					world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+				}
+				if (!world.isRemote) {
+					BlockPos _bp = new BlockPos((int) x, (int) y, (int) (z + 1));
+					TileEntity _tileEntity = world.getTileEntity(_bp);
+					BlockState _bs = world.getBlockState(_bp);
+					if (_tileEntity != null)
+						_tileEntity.getTileData().putString("flow", "z+");
 					world.notifyBlockUpdate(_bp, _bs, _bs, 3);
 				}
 			}
