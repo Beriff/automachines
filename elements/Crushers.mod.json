@@ -1,0 +1,19 @@
+{
+  "_fv": 10,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:BronzeCrusher"
+      },
+      {
+        "value": "CUSTOM:IronCrusher"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "crusher",
+    "namespace": "mod"
+  }
+}

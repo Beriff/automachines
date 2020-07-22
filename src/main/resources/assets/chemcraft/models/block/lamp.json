@@ -1,0 +1,9 @@
+{
+  "parent": "chemcraft:custom/lamp.png",
+  "textures": {
+    "all": "chemcraft:blocks/light",
+    "particle": "chemcraft:blocks/light",
+    "steel_hull": "chemcraft:blocks/steel_hull",
+    "blur": "chemcraft:blocks/blur"
+  }
+}

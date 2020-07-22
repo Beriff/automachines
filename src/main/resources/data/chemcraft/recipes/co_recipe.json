@@ -1,0 +1,16 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chemcraft:hydroxylamine"
+    },
+    {
+      "item": "chemcraft:cyclohexane"
+    }
+  ],
+  "result": {
+    "item": "chemcraft:cyclohexanone_oxime",
+    "count": 1
+  }
+}

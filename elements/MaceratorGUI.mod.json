@@ -6,64 +6,8 @@
     "width": 352,
     "height": 332,
     "renderBgLayer": true,
+    "doesPauseGame": false,
     "components": [
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 0,
-          "disableStackInteraction": false,
-          "name": "Slot #0",
-          "x": 336,
-          "y": 96
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "gui_saw.png",
-          "name": "gui_saw.png",
-          "x": 340,
-          "y": 136
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 1,
-          "disableStackInteraction": false,
-          "name": "Slot #1",
-          "x": 336,
-          "y": 168
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "gui_arrow.png",
-          "name": "gui_arrow.png",
-          "x": 400,
-          "y": 132
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
-          "id": 2,
-          "disableStackInteraction": false,
-          "onTakenFromSlot": {
-            "name": "ItemTaken"
-          },
-          "name": "Slot #2",
-          "x": 480,
-          "y": 132
-        }
-      },
       {
         "type": "label",
         "data": {
@@ -73,8 +17,69 @@
             "falpha": 0.0
           },
           "name": "Macerator",
-          "x": 390,
-          "y": 78
+          "x": 393,
+          "y": 77
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "name": "Slot #0",
+          "x": 300,
+          "y": 150
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "onTakenFromSlot": {
+            "name": "Clear0"
+          },
+          "name": "Slot #1",
+          "x": 516,
+          "y": 114
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "onTakenFromSlot": {
+            "name": "Clear0"
+          },
+          "name": "Slot #2",
+          "x": 516,
+          "y": 186
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_arrow.png",
+          "name": "gui_arrow.png",
+          "x": 408,
+          "y": 150
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<energy> eCU",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "<energy> eCU",
+          "x": 372,
+          "y": 114
         }
       }
     ]

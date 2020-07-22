@@ -2,9 +2,9 @@
   "_fv": 10,
   "_type": "tab",
   "definition": {
-    "name": "Mod Tab",
+    "name": "Chemistrycraft",
     "icon": {
-      "value": "Blocks.SMOOTH_STONE"
+      "value": "CUSTOM:TinDust"
     },
     "showSearch": false
   }

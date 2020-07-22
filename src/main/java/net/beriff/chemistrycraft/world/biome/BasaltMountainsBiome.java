@@ -4,6 +4,8 @@ package net.beriff.chemistrycraft.world.biome;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.common.BiomeManager;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
@@ -34,7 +36,7 @@ public class BasaltMountainsBiome extends ChemcraftModElements.ModElement {
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
 			super(new Biome.Builder().downfall(0.5f).depth(2f).scale(1.2f).temperature(0.05f).precipitation(Biome.RainType.SNOW)
-					.category(Biome.Category.NONE).waterColor(4159204).waterFogColor(329011)
+					.category(Biome.Category.NONE).waterColor(-14329397).waterFogColor(-14329397)
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(BasaltBlock.block.getDefaultState(),
 							BasaltBlock.block.getDefaultState(), BasaltBlock.block.getDefaultState())));
 			setRegistryName("basalt_mountains");
@@ -42,6 +44,24 @@ public class BasaltMountainsBiome extends ChemcraftModElements.ModElement {
 			DefaultBiomeFeatures.addStructures(this);
 			DefaultBiomeFeatures.addMonsterRooms(this);
 			DefaultBiomeFeatures.addOres(this);
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public int getGrassColor(double posX, double posZ) {
+			return -13261999;
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public int getFoliageColor() {
+			return -13261999;
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public int getSkyColor() {
+			return -5916161;
 		}
 	}
 }

@@ -1,0 +1,42 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "chemcraft:steel_plate"
+    },
+    "1": {
+      "item": "chemcraft:steel_plate"
+    },
+    "2": {
+      "item": "chemcraft:steel_plate"
+    },
+    "3": {
+      "item": "chemcraft:large_steel_pipe"
+    },
+    "4": {
+      "item": "chemcraft:impeller"
+    },
+    "5": {
+      "item": "chemcraft:large_steel_pipe"
+    },
+    "6": {
+      "item": "chemcraft:steel"
+    },
+    "7": {
+      "item": "chemcraft:steel_hull"
+    },
+    "8": {
+      "item": "chemcraft:steel"
+    }
+  },
+  "result": {
+    "item": "chemcraft:flotation_machine",
+    "count": 1
+  }
+}

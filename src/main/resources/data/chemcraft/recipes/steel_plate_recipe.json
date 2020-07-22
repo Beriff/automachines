@@ -1,0 +1,16 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chemcraft:iron_crusher"
+    },
+    {
+      "item": "chemcraft:steel"
+    }
+  ],
+  "result": {
+    "item": "chemcraft:steel_plate",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "chemcraft:custom/blueprint_table_filled",
+  "textures": {
+    "all": "chemcraft:blocks/paper_uv",
+    "particle": "chemcraft:blocks/paper_uv",
+    "planks_uv": "chemcraft:blocks/planks_uv",
+    "paper_uv": "chemcraft:blocks/paper_uv",
+    "wood_uv": "chemcraft:blocks/log_uv"
+  }
+}

@@ -8,6 +8,7 @@ import net.minecraft.block.Blocks;
 import net.beriff.chemistrycraft.ChemcraftModElements;
 
 import java.util.Random;
+import java.util.Map;
 
 @ChemcraftModElements.ModElement.Tag
 public class StickRotatorRightClickedOnBlockProcedure extends ChemcraftModElements.ModElement {
@@ -15,7 +16,7 @@ public class StickRotatorRightClickedOnBlockProcedure extends ChemcraftModElemen
 		super(instance, 96);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("itemstack") == null) {
 			System.err.println("Failed to load dependency itemstack for procedure StickRotatorRightClickedOnBlock!");
 			return;

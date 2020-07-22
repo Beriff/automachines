@@ -9,13 +9,15 @@ import net.minecraft.entity.Entity;
 
 import net.beriff.chemistrycraft.ChemcraftModElements;
 
+import java.util.Map;
+
 @ChemcraftModElements.ModElement.Tag
 public class BronzeSteamPipeOnBlockRightClickedProcedure extends ChemcraftModElements.ModElement {
 	public BronzeSteamPipeOnBlockRightClickedProcedure(ChemcraftModElements instance) {
 		super(instance, 204);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			System.err.println("Failed to load dependency entity for procedure BronzeSteamPipeOnBlockRightClicked!");
 			return;

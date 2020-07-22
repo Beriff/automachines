@@ -8,13 +8,15 @@ import net.minecraft.block.BlockState;
 import net.beriff.chemistrycraft.block.FireboxBlock;
 import net.beriff.chemistrycraft.ChemcraftModElements;
 
+import java.util.Map;
+
 @ChemcraftModElements.ModElement.Tag
 public class LitFireboxUpdateTickProcedure extends ChemcraftModElements.ModElement {
 	public LitFireboxUpdateTickProcedure(ChemcraftModElements instance) {
 		super(instance, 164);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			System.err.println("Failed to load dependency x for procedure LitFireboxUpdateTick!");
 			return;

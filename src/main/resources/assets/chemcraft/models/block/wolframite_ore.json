@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/wolframite",
+    "up": "chemcraft:blocks/wolframite",
+    "north": "chemcraft:blocks/wolframite",
+    "east": "chemcraft:blocks/wolframite",
+    "south": "chemcraft:blocks/wolframite",
+    "west": "chemcraft:blocks/wolframite",
+    "particle": "chemcraft:blocks/wolframite"
+  }
+}

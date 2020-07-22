@@ -4,6 +4,8 @@ package net.beriff.chemistrycraft.world.biome;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.common.BiomeManager;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
@@ -41,7 +43,7 @@ public class GabbroMountainsBiome extends ChemcraftModElements.ModElement {
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
 			super(new Biome.Builder().downfall(0.5f).depth(1.8f).scale(1.3f).temperature(0.05f).precipitation(Biome.RainType.SNOW)
-					.category(Biome.Category.EXTREME_HILLS).waterColor(4159204).waterFogColor(329011)
+					.category(Biome.Category.EXTREME_HILLS).waterColor(-14329397).waterFogColor(-14329397)
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(GabbroBlock.block.getDefaultState(),
 							GabbroBlock.block.getDefaultState(), GabbroBlock.block.getDefaultState())));
 			setRegistryName("gabbro_mountains");
@@ -56,6 +58,24 @@ public class GabbroMountainsBiome extends ChemcraftModElements.ModElement {
 											Feature.FANCY_TREE.withConfiguration(DefaultBiomeFeatures.field_230131_m_).withChance(0.1F)),
 									Feature.NORMAL_TREE.withConfiguration(DefaultBiomeFeatures.field_230132_o_)))
 							.withPlacement(Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(1, 0.1F, 1))));
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public int getGrassColor(double posX, double posZ) {
+			return -13261999;
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public int getFoliageColor() {
+			return -13261999;
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public int getSkyColor() {
+			return -5916161;
 		}
 	}
 }

@@ -1,0 +1,16 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chemcraft:bronze_crusher"
+    },
+    {
+      "item": "chemcraft:wolframite_ore"
+    }
+  ],
+  "result": {
+    "item": "chemcraft:impure_wolframite_ore_dust",
+    "count": 1
+  }
+}

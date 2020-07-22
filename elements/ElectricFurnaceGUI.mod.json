@@ -1,0 +1,135 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Electric Furnace",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Electric Furnace",
+          "x": 355,
+          "y": 78
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "name": "Slot #0",
+          "x": 408,
+          "y": 204
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "name": "Slot #1",
+          "x": 336,
+          "y": 114
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "name": "Slot #2",
+          "x": 408,
+          "y": 114
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "name": "Slot #3",
+          "x": 480,
+          "y": 114
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disableStackInteraction": false,
+          "onTakenFromSlot": {
+            "name": "Clear4slotsExl"
+          },
+          "name": "Slot #4",
+          "x": 552,
+          "y": 150
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Energy: <energy>",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Energy: <energy>",
+          "x": 264,
+          "y": 150
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "new_wire.png",
+          "name": "new_wire.png",
+          "x": 343,
+          "y": 208
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Max: <BNBT:integer:maxHeat> °C",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Max: <BNBT:integer:maxHeat> °C",
+          "x": 264,
+          "y": 171
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "new_wire.png",
+          "name": "new_wire.png",
+          "x": 450,
+          "y": 208
+        }
+      }
+    ]
+  }
+}

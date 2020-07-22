@@ -1,0 +1,13 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "minecraft:sand"
+    }
+  ],
+  "result": {
+    "item": "chemcraft:sand_pile",
+    "count": 4
+  }
+}

@@ -10,13 +10,15 @@ import net.minecraft.item.ItemStack;
 
 import net.beriff.chemistrycraft.ChemcraftModElements;
 
+import java.util.Map;
+
 @ChemcraftModElements.ModElement.Tag
 public class Remove3SlotsProcedure extends ChemcraftModElements.ModElement {
 	public Remove3SlotsProcedure(ChemcraftModElements instance) {
 		super(instance, 35);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			System.err.println("Failed to load dependency x for procedure Remove3Slots!");
 			return;

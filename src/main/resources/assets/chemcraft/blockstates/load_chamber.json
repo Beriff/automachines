@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "chemcraft:block/load_chamber"
+    },
+    "facing=east": {
+      "model": "chemcraft:block/load_chamber",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chemcraft:block/load_chamber",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chemcraft:block/load_chamber",
+      "y": 270
+    }
+  }
+}

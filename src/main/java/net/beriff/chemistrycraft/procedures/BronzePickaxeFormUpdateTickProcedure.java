@@ -15,6 +15,7 @@ import net.beriff.chemistrycraft.block.BronzePickaxeFilledBronzeBlock;
 import net.beriff.chemistrycraft.ChemcraftModElements;
 
 import java.util.concurrent.atomic.AtomicReference;
+import java.util.Map;
 
 @ChemcraftModElements.ModElement.Tag
 public class BronzePickaxeFormUpdateTickProcedure extends ChemcraftModElements.ModElement {
@@ -22,7 +23,7 @@ public class BronzePickaxeFormUpdateTickProcedure extends ChemcraftModElements.M
 		super(instance, 155);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			System.err.println("Failed to load dependency x for procedure BronzePickaxeFormUpdateTick!");
 			return;

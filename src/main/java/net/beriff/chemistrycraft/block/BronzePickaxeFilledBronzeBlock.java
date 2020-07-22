@@ -35,7 +35,9 @@ import net.minecraft.block.Block;
 import net.beriff.chemistrycraft.procedures.BronzePickaxeFilledBronzeOnBlockRightClickedProcedure;
 import net.beriff.chemistrycraft.ChemcraftModElements;
 
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 import java.util.Collections;
 
 @ChemcraftModElements.ModElement.Tag
@@ -116,7 +118,7 @@ public class BronzePickaxeFilledBronzeBlock extends ChemcraftModElements.ModElem
 			int z = pos.getZ();
 			Direction direction = hit.getFace();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);

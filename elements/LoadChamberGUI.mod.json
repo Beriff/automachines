@@ -1,0 +1,90 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Steel Converter",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Steel Converter",
+          "x": 354,
+          "y": 78
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Converter State: <BNBT:text:multib>",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Converter State: <BNBT:text:multib>",
+          "x": 264,
+          "y": 96
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Progress: <BNBT:integer:progress>",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Progress: <BNBT:integer:progress>",
+          "x": 264,
+          "y": 114
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "onTakenFromSlot": {
+            "name": "ResetProgress"
+          },
+          "name": "Slot #0",
+          "x": 336,
+          "y": 168
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_arrow.png",
+          "name": "gui_arrow.png",
+          "x": 407,
+          "y": 169
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "onTakenFromSlot": {
+            "name": "ResetProgress"
+          },
+          "name": "Slot #1",
+          "x": 480,
+          "y": 168
+        }
+      }
+    ]
+  }
+}

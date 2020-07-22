@@ -9,13 +9,15 @@ import net.minecraft.entity.Entity;
 
 import net.beriff.chemistrycraft.ChemcraftModElements;
 
+import java.util.Map;
+
 @ChemcraftModElements.ModElement.Tag
 public class BoilerClickProcedure extends ChemcraftModElements.ModElement {
 	public BoilerClickProcedure(ChemcraftModElements instance) {
 		super(instance, 165);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			System.err.println("Failed to load dependency entity for procedure BoilerClick!");
 			return;

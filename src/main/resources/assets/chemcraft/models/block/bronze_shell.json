@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/bronze_frame",
+    "up": "chemcraft:blocks/bronze_frame",
+    "north": "chemcraft:blocks/bronze_frame",
+    "east": "chemcraft:blocks/bronze_frame",
+    "south": "chemcraft:blocks/bronze_frame",
+    "west": "chemcraft:blocks/bronze_frame",
+    "particle": "chemcraft:blocks/bronze_frame"
+  }
+}

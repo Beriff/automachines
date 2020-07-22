@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "steel_hull": "steel_hull",
+        "blur": "blur"
+      },
+      "name": "default"
+    },
+    "lit": {
+      "map": {
+        "steel_hull": "steel_hull",
+        "blur": "light"
+      },
+      "name": "lit"
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Blueprint Table",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Blueprint Table",
+          "x": 353,
+          "y": 79
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "name": "Slot #0",
+          "x": 264,
+          "y": 96
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "name": "Slot #1",
+          "x": 264,
+          "y": 132
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "name": "Slot #2",
+          "x": 264,
+          "y": 168
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "name": "Slot #3",
+          "x": 336,
+          "y": 132
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 4,
+          "disableStackInteraction": false,
+          "name": "Slot #4",
+          "x": 372,
+          "y": 132
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 5,
+          "disableStackInteraction": false,
+          "name": "Slot #5",
+          "x": 408,
+          "y": 132
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 6,
+          "disableStackInteraction": false,
+          "onTakenFromSlot": {
+            "name": "Clear6"
+          },
+          "name": "Slot #6",
+          "x": 552,
+          "y": 132
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_arrow.png",
+          "name": "gui_arrow.png",
+          "x": 472,
+          "y": 135
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_ruler.png",
+          "name": "gui_ruler.png",
+          "x": 303,
+          "y": 96
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_pencil.png",
+          "name": "gui_pencil.png",
+          "x": 300,
+          "y": 131
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_paper.png",
+          "name": "gui_paper.png",
+          "x": 302,
+          "y": 170
+        }
+      }
+    ]
+  }
+}

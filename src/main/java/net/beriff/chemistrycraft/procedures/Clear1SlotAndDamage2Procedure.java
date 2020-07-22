@@ -11,6 +11,7 @@ import net.minecraft.item.ItemStack;
 import net.beriff.chemistrycraft.ChemcraftModElements;
 
 import java.util.Random;
+import java.util.Map;
 
 @ChemcraftModElements.ModElement.Tag
 public class Clear1SlotAndDamage2Procedure extends ChemcraftModElements.ModElement {
@@ -18,7 +19,7 @@ public class Clear1SlotAndDamage2Procedure extends ChemcraftModElements.ModEleme
 		super(instance, 201);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			System.err.println("Failed to load dependency x for procedure Clear1SlotAndDamage2!");
 			return;

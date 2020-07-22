@@ -11,13 +11,15 @@ import net.beriff.chemistrycraft.block.BronzeSteamPipeBlock;
 import net.beriff.chemistrycraft.block.BRonzeBoilerBlockBlock;
 import net.beriff.chemistrycraft.ChemcraftModElements;
 
+import java.util.Map;
+
 @ChemcraftModElements.ModElement.Tag
 public class BronzeSteamPipeUpdateTickProcedure extends ChemcraftModElements.ModElement {
 	public BronzeSteamPipeUpdateTickProcedure(ChemcraftModElements instance) {
 		super(instance, 203);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			System.err.println("Failed to load dependency x for procedure BronzeSteamPipeUpdateTick!");
 			return;

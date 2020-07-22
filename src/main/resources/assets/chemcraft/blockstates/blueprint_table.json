@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "chemcraft:block/blueprint_table"
+    },
+    "facing=east": {
+      "model": "chemcraft:block/blueprint_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chemcraft:block/blueprint_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chemcraft:block/blueprint_table",
+      "y": 270
+    }
+  }
+}

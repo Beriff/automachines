@@ -11,15 +11,6 @@
       "registry_name": "mod_tab"
     },
     {
-      "name": "CopperCable",
-      "type": "block",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "copper_cable"
-    },
-    {
       "name": "Ash",
       "type": "item",
       "sortid": 7,
@@ -92,75 +83,6 @@
       "registry_name": "pum_abr_recipe"
     },
     {
-      "name": "MachineShell",
-      "type": "block",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "machine_shell"
-    },
-    {
-      "name": "MachShellRecipe",
-      "type": "recipe",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mach_shell_recipe"
-    },
-    {
-      "name": "Sander",
-      "type": "block",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sander"
-    },
-    {
-      "name": "SanderGUI",
-      "type": "gui",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sander_gui"
-    },
-    {
-      "name": "SanderOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sander_on_block_right_clicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "Blade",
       "type": "item",
       "sortid": 6,
@@ -179,133 +101,6 @@
       "registry_name": "item_taken",
       "metadata": {
         "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "SanderUpdateTick",
-      "type": "procedure",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sander_update_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "SanderRecipe",
-      "type": "recipe",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sander_recipe"
-    },
-    {
-      "name": "Macerator",
-      "type": "block",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "macerator"
-    },
-    {
-      "name": "MaceratorRecipe",
-      "type": "recipe",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "macerator_recipe"
-    },
-    {
-      "name": "MaceratorGUI",
-      "type": "gui",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "macerator_gui"
-    },
-    {
-      "name": "MaceratorUpdateTick",
-      "type": "procedure",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "macerator_update_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "MaceratorOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "macerator_on_block_right_clicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
           {
             "name": "x",
             "type": "number"
@@ -362,24 +157,6 @@
       "registry_name": "aluminium_ingot"
     },
     {
-      "name": "AluminiumIngotRecipe",
-      "type": "recipe",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "aluminium_ingot_recipe"
-    },
-    {
-      "name": "Lens",
-      "type": "item",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "lens"
-    },
-    {
       "name": "Sulfur",
       "type": "item",
       "sortid": 31,
@@ -396,48 +173,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sulfur_ore"
-    },
-    {
-      "name": "OxidizerGUI",
-      "type": "gui",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "oxidizer_gui"
-    },
-    {
-      "name": "OxidizerOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "oxidizer_on_block_right_clicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
     },
     {
       "name": "SulfurAcidFoodEaten",
@@ -464,44 +199,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sulfur_acid"
-    },
-    {
-      "name": "OxidizerUpdateTick",
-      "type": "procedure",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "oxidizer_update_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Oxidizer",
-      "type": "block",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "oxidizer"
     },
     {
       "name": "Remove3Slots",
@@ -533,15 +230,6 @@
       }
     },
     {
-      "name": "OxidizerRecipe",
-      "type": "recipe",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "oxidizer_recipe"
-    },
-    {
       "name": "TheBeggining",
       "type": "achievement",
       "sortid": 37,
@@ -549,66 +237,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "the_beggining"
-    },
-    {
-      "name": "Leacher",
-      "type": "block",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "leacher"
-    },
-    {
-      "name": "LeacherRecipe",
-      "type": "recipe",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "leacher_recipe"
-    },
-    {
-      "name": "LeacherGUI",
-      "type": "gui",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "leacher_gui"
-    },
-    {
-      "name": "LeacherOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "leacher_on_block_right_clicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
     },
     {
       "name": "Nitrocalite",
@@ -629,57 +257,6 @@
       "registry_name": "nitrocalite_mineral"
     },
     {
-      "name": "AlloyFurnaceGUI",
-      "type": "gui",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "alloy_furnace_gui"
-    },
-    {
-      "name": "AlloyFurnaceOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "alloy_furnace_on_block_right_clicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Steel",
-      "type": "item",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "steel"
-    },
-    {
       "name": "Carbon",
       "type": "item",
       "sortid": 46,
@@ -687,95 +264,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "carbon"
-    },
-    {
-      "name": "AlloyFurnaceUpdateTick",
-      "type": "procedure",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "alloy_furnace_update_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "AlloyFurnace",
-      "type": "block",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "alloy_furnace"
-    },
-    {
-      "name": "AlloyFurnaceRecipe",
-      "type": "recipe",
-      "sortid": 47,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "alloy_furnace_recipe"
-    },
-    {
-      "name": "ConcentratorGUI",
-      "type": "gui",
-      "sortid": 48,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "concentrator_gui"
-    },
-    {
-      "name": "ConcentratorOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 49,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "concentrator_on_block_right_clicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
     },
     {
       "name": "PlatinumIngot",
@@ -796,44 +284,6 @@
       "registry_name": "platinum_group_concentrate"
     },
     {
-      "name": "ConcentratorUpdateTick",
-      "type": "procedure",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "concentrator_update_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Concentrator",
-      "type": "block",
-      "sortid": 48,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "concentrator"
-    },
-    {
       "name": "PlatinumOre",
       "type": "block",
       "sortid": 52,
@@ -841,15 +291,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "platinum_ore"
-    },
-    {
-      "name": "PlatinumIngotRecipe",
-      "type": "recipe",
-      "sortid": 53,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "platinum_ingot_recipe"
     },
     {
       "name": "OsmiumCrystal",
@@ -868,35 +309,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "iridium_piece"
-    },
-    {
-      "name": "LeacherUpdateTick",
-      "type": "procedure",
-      "sortid": 55,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "leacher_update_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
     },
     {
       "name": "NitrocaliteCrystal",
@@ -2843,6 +2255,1674 @@
           }
         ]
       }
+    },
+    {
+      "name": "BronzeShell",
+      "type": "block",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_shell"
+    },
+    {
+      "name": "BronzeFrameRecipe",
+      "type": "recipe",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_frame_recipe"
+    },
+    {
+      "name": "LoadChamber",
+      "type": "block",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "load_chamber"
+    },
+    {
+      "name": "LoadChamberGUI",
+      "type": "gui",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "load_chamber_gui"
+    },
+    {
+      "name": "LoadChamberOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "load_chamber_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CastIron",
+      "type": "item",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cast_iron"
+    },
+    {
+      "name": "Steel",
+      "type": "item",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel"
+    },
+    {
+      "name": "LoadChamberUpdateTick",
+      "type": "procedure",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "load_chamber_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResetProgress",
+      "type": "procedure",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reset_progress",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperWireCore",
+      "type": "item",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_wire_core"
+    },
+    {
+      "name": "CreativeEnergySource",
+      "type": "block",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creative_energy_source"
+    },
+    {
+      "name": "CreativeEnergySourceUpdateTick",
+      "type": "procedure",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creative_energy_source_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LargeSteelPipe",
+      "type": "item",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "large_steel_pipe"
+    },
+    {
+      "name": "ImpellerGear",
+      "type": "item",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "impeller_gear"
+    },
+    {
+      "name": "SteelHull",
+      "type": "block",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_hull"
+    },
+    {
+      "name": "FlotationMachine",
+      "type": "block",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flotation_machine"
+    },
+    {
+      "name": "FlotationMachineRecipe",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flotation_machine_recipe"
+    },
+    {
+      "name": "Impeller",
+      "type": "item",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "impeller"
+    },
+    {
+      "name": "IronCrusher",
+      "type": "item",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_crusher"
+    },
+    {
+      "name": "Crushers",
+      "type": "tag",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crushers"
+    },
+    {
+      "name": "Oil",
+      "type": "fluid",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oil"
+    },
+    {
+      "name": "OilMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oil_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SteelPlate",
+      "type": "item",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_plate"
+    },
+    {
+      "name": "SteelPlateRecipe",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_plate_recipe"
+    },
+    {
+      "name": "SphaleriteDust",
+      "type": "item",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sphalerite_dust"
+    },
+    {
+      "name": "Sphalerite",
+      "type": "block",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sphalerite"
+    },
+    {
+      "name": "FusedQuartz",
+      "type": "item",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fused_quartz"
+    },
+    {
+      "name": "ZincConcentrate",
+      "type": "item",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_concentrate"
+    },
+    {
+      "name": "FlotationMachineGUI",
+      "type": "gui",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flotation_machine_gui"
+    },
+    {
+      "name": "Fill",
+      "type": "procedure",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fill",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlotationMachineOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flotation_machine_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlotationMachineUpdateTick",
+      "type": "procedure",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flotation_machine_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Remove1stSlot",
+      "type": "procedure",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "remove_1st_slot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fluorite",
+      "type": "block",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fluorite"
+    },
+    {
+      "name": "IronWireCore",
+      "type": "item",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_wire_core"
+    },
+    {
+      "name": "ElectrolysisCell",
+      "type": "block",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "electrolysis_cell"
+    },
+    {
+      "name": "ElectrolysisCellGUI",
+      "type": "gui",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "electrolysis_cell_gui"
+    },
+    {
+      "name": "Fill2",
+      "type": "procedure",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fill_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Clear2Slots",
+      "type": "procedure",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_2_slots",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElectrolysisCellOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "electrolysis_cell_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PotassiumChloride",
+      "type": "item",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "potassium_chloride"
+    },
+    {
+      "name": "ElectrolysisCellUpdateTick",
+      "type": "procedure",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "electrolysis_cell_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Calcium",
+      "type": "item",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "calcium"
+    },
+    {
+      "name": "Quicklime",
+      "type": "item",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quicklime"
+    },
+    {
+      "name": "WolframiteOre",
+      "type": "block",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wolframite_ore"
+    },
+    {
+      "name": "ImpureWolframiteOreDust",
+      "type": "item",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "impure_wolframite_ore_dust"
+    },
+    {
+      "name": "IWODRecipe",
+      "type": "recipe",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iwod_recipe"
+    },
+    {
+      "name": "WolframiteDust",
+      "type": "item",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wolframite_dust"
+    },
+    {
+      "name": "SiliconCarbide",
+      "type": "item",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silicon_carbide"
+    },
+    {
+      "name": "ExtremeLuck",
+      "type": "achievement",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "extreme_luck"
+    },
+    {
+      "name": "MoissoniteBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moissonite_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Moissonite",
+      "type": "block",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moissonite"
+    },
+    {
+      "name": "SandPile",
+      "type": "item",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sand_pile"
+    },
+    {
+      "name": "SandPileRecipe",
+      "type": "recipe",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sand_pile_recipe"
+    },
+    {
+      "name": "SandRecipe",
+      "type": "recipe",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sand_recipe"
+    },
+    {
+      "name": "CalciumCarbide",
+      "type": "item",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "calcium_carbide"
+    },
+    {
+      "name": "ElectricFurnaceGUI",
+      "type": "gui",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "electric_furnace_gui"
+    },
+    {
+      "name": "ElectricFurnace",
+      "type": "block",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "electric_furnace"
+    },
+    {
+      "name": "ElectricFurnaceOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "electric_furnace_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Clear4slotsExl",
+      "type": "procedure",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_4slots_exl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElectricFurnaceUpdateTick",
+      "type": "procedure",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "electric_furnace_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TungstenBar",
+      "type": "item",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungsten_bar"
+    },
+    {
+      "name": "LampHolder",
+      "type": "block",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lamp_holder"
+    },
+    {
+      "name": "Lamp",
+      "type": "block",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lamp"
+    },
+    {
+      "name": "LitLamp",
+      "type": "block",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lit_lamp"
+    },
+    {
+      "name": "LitLampUpdateTick",
+      "type": "procedure",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lit_lamp_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LampUpdateTick",
+      "type": "procedure",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lamp_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LampHolderUpdateTick",
+      "type": "procedure",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lamp_holder_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rumex",
+      "type": "plant",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rumex"
+    },
+    {
+      "name": "OxalicAcid",
+      "type": "item",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxalic_acid"
+    },
+    {
+      "name": "OxalicAcidRecipe",
+      "type": "recipe",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxalic_acid_recipe"
+    },
+    {
+      "name": "MaceratorGUI",
+      "type": "gui",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "macerator_gui"
+    },
+    {
+      "name": "Clear0",
+      "type": "procedure",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_0",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Macerator",
+      "type": "block",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "macerator"
+    },
+    {
+      "name": "MaceratorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "macerator_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Molybdenite",
+      "type": "block",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "molybdenite"
+    },
+    {
+      "name": "MaceratorUpdateTick",
+      "type": "procedure",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "macerator_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MolybdeniteOrePiece",
+      "type": "item",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "molybdenite_ore_piece"
+    },
+    {
+      "name": "RheniumOrePiece",
+      "type": "item",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhenium_ore_piece"
+    },
+    {
+      "name": "SeleniumOrePiece",
+      "type": "item",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "selenium_ore_piece"
+    },
+    {
+      "name": "Molybdenumbar",
+      "type": "item",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "molybdenumbar"
+    },
+    {
+      "name": "AcetyleneRecipe",
+      "type": "recipe",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acetylene_recipe"
+    },
+    {
+      "name": "Acetylen",
+      "type": "item",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acetylen"
+    },
+    {
+      "name": "DicarboxylicAcidSalt",
+      "type": "item",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dicarboxylic_acid_salt"
+    },
+    {
+      "name": "Caprolactam",
+      "type": "item",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "caprolactam"
+    },
+    {
+      "name": "CyclohexanoneOxime",
+      "type": "item",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cyclohexanone_oxime"
+    },
+    {
+      "name": "Hydroxylamine",
+      "type": "item",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hydroxylamine"
+    },
+    {
+      "name": "Cyclohexane",
+      "type": "item",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cyclohexane"
+    },
+    {
+      "name": "CORecipe",
+      "type": "recipe",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "co_recipe"
+    },
+    {
+      "name": "Beaker",
+      "type": "item",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beaker"
+    },
+    {
+      "name": "Oleum",
+      "type": "item",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oleum"
+    },
+    {
+      "name": "SulfuricAnhydride",
+      "type": "item",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulfuric_anhydride"
+    },
+    {
+      "name": "BucketOfSulfur",
+      "type": "item",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bucket_of_sulfur"
+    },
+    {
+      "name": "SulfurBRecipe",
+      "type": "recipe",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulfur_b_recipe"
+    },
+    {
+      "name": "SulfurDioxide",
+      "type": "item",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulfur_dioxide"
+    },
+    {
+      "name": "TinyPileOfSelenium",
+      "type": "item",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tiny_pile_of_selenium"
+    },
+    {
+      "name": "SeleniumOrePieceRecipe",
+      "type": "recipe",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "selenium_ore_piece_recipe"
+    },
+    {
+      "name": "PileOfImpureRhenium",
+      "type": "item",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pile_of_impure_rhenium"
+    },
+    {
+      "name": "RheniumOrePieceRecipe",
+      "type": "recipe",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhenium_ore_piece_recipe"
+    },
+    {
+      "name": "EmptyGasCylinder",
+      "type": "item",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "empty_gas_cylinder"
+    },
+    {
+      "name": "HydrogenGasCylinder",
+      "type": "item",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hydrogen_gas_cylinder"
+    },
+    {
+      "name": "Polyamide",
+      "type": "item",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polyamide"
+    },
+    {
+      "name": "BlueprintTable",
+      "type": "block",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueprint_table"
+    },
+    {
+      "name": "BlueprintTableFilled",
+      "type": "block",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueprint_table_filled"
+    },
+    {
+      "name": "Clear6",
+      "type": "procedure",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_6",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlueprintTableGUI",
+      "type": "gui",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueprint_table_gui"
+    },
+    {
+      "name": "BlueprintTableOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueprint_table_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WoodenRuler",
+      "type": "item",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_ruler"
+    },
+    {
+      "name": "Pencil",
+      "type": "item",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pencil"
+    },
+    {
+      "name": "BlueprintTableUpdateTick",
+      "type": "procedure",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueprint_table_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlueprintTableFilledOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueprint_table_filled_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlueprintTableFilledUpdateTick",
+      "type": "procedure",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueprint_table_filled_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ParaAramidFiber",
+      "type": "item",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "para_aramid_fiber"
+    },
+    {
+      "name": "KevlarFiber",
+      "type": "item",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kevlar_fiber"
+    },
+    {
+      "name": "Kevlar",
+      "type": "item",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kevlar"
+    },
+    {
+      "name": "KevlarVest",
+      "type": "armor",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kevlar_vest",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "KevlarVestRecipe",
+      "type": "recipe",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kevlar_vest_recipe"
+    },
+    {
+      "name": "CompressedKevlar",
+      "type": "item",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_kevlar"
+    },
+    {
+      "name": "RadioprotectiveComposite",
+      "type": "block",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "radioprotective_composite"
+    },
+    {
+      "name": "Concrete",
+      "type": "block",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "concrete"
+    },
+    {
+      "name": "ReinforcedCarbonFiberPolymer",
+      "type": "item",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reinforced_carbon_fiber_polymer"
+    },
+    {
+      "name": "RPCRecipe",
+      "type": "recipe",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rpc_recipe"
     }
   ],
   "variable_elements": [
@@ -2856,76 +3936,173 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.chemcraft.bronze_dust": "Bronze Dust",
-      "block.automachines.carbon_dirt": "Carbon Dirt",
-      "block.chemcraft.firebox": "Firebox",
       "block.chemcraft.dolerite": "Dolerite",
+      "block.chemcraft.firebox": "Firebox",
       "block.automachines.magnetite_dirt_ore": "Magnetite Dirt Ore",
       "block.chemcraft.gabbro": "Gabbro",
-      "block.automachines.pumice_ore": "Pumice Ore",
-      "block.automachines.b_furnace_done": "B Furnace Done",
+      "item.chemcraft.acetylen": "Acetylene",
       "block.automachines.new_oak": "Pine Log",
       "item.chemcraft.stone_hoe": "Stone Hoe",
-      "item.chemcraft.osmium_crystal": "Osmium Crystal",
       "block.chemcraft.b_ronze_boiler_block": "Bronze Boiler ",
-      "item.chemcraft.coke": "Coke",
-      "block.chemcraft.bronze_node": "Bronze Node",
+      "item.chemcraft.osmium_crystal": "Osmium Crystal",
       "block.chemcraft.lignin": "Lignin",
-      "block.chemcraft.hematite_dirt_ore": "Hematite Dirt Ore",
-      "item.chemcraft.bronze_pickaxe": "Bronze Pickaxe",
+      "item.chemcraft.molybdenite_ore_piece": "Molybdenite Ore Piece",
       "block.chemcraft.magnetite_dirt_ore": "Magnetite Dirt Ore",
+      "item.chemcraft.oxalic_acid": "Oxalic Acid",
+      "item.chemcraft.oil_bucket": "Oil Bucket",
       "item.chemcraft.bronze_plate": "Bronze Plate",
       "block.chemcraft.polished_ash": "Polished Ash",
-      "block.automachines.hematite_dirt_ore": "Hematite Dirt Ore",
-      "block.chemcraft.aluminium_ore": "Aluminium Ore",
       "item.chemcraft.chisel": "Bronze Chisel",
+      "item.chemcraft.iron_crusher": "Iron Crusher",
       "block.chemcraft.macerator": "Macerator",
-      "block.automachines.leacher": "Leacher",
       "item.chemcraft.platinum_group_concentrate": "Platinum Group Concentrate",
-      "item.chemcraft.magnetite_piece": "Magnetite Ore Piece",
       "item.chemcraft.blade": "Blade",
       "block.automachines.sander": "Sander",
-      "item.chemcraft.sulfur_acid": "Sulphuric Acid",
-      "block.automachines.quartz_ore": "Quartz Ore",
+      "item.chemcraft.iron_wire_core": "Iron Wire Core",
+      "item.chemcraft.empty_gas_cylinder": "Empty Gas Cylinder",
+      "item.chemcraft.sulfur_dioxide": "Sulfur Dioxide",
       "item.chemcraft.thick_stick": "Thick Stick",
       "block.chemcraft.nitrocalite_mineral": "Nitrocalite Mineral",
-      "block.automachines.platinum_ore": "Platinum Ore",
       "block.chemcraft.ash_block": "Ash Block",
-      "block.chemcraft.sulfur_ore": "Sulfur Ore",
-      "block.chemcraft.concentrator": "Concentrator",
-      "block.chemcraft.water_mill": "Water Mill",
+      "item.chemcraft.pile_of_impure_rhenium": "Pile Of Impure Rhenium",
       "item.automachines.platinum_ingot": "Platinum Ingot",
-      "block.chemcraft.pine_leaves": "Pine Leaves",
-      "block.chemcraft.bronze_pickaxe_filled_iron": "Bronze Pickaxe Filled Iron",
-      "block.chemcraft.tree_branch": "Tree Branch",
+      "item.chemcraft.sulfuric_anhydride": "Sulfuric Anhydride",
       "item.chemcraft.lignin_shard": "Lignin Shard",
       "item.automachines.sulfur_acid": "Sulphuric Acid",
       "block.automachines.pebble": "Pebble",
-      "block.chemcraft.slate": "Slate",
-      "block.chemcraft.cassiterite_ore": "Cassiterite Ore",
+      "block.chemcraft.electric_furnace": "Electric Furnace",
       "item.automachines.platinum_group_concentrate": "Platinum Group Concentrate",
       "item.chemcraft.pumice": "Pumice",
-      "item.automachines.rope": "Rope",
+      "item.chemcraft.oleum": "Oleum",
       "block.automachines.limestone": "Limestone",
-      "item.chemcraft.lens": "Lens",
+      "item.chemcraft.stick_rotator": "Stick Rotator",
+      "item.automachines.stone_hoe": "Stone Hoe",
+      "block.chemcraft.electric_generator": "Electric Generator",
+      "block.automachines.copper_cable": "Copper Cable",
+      "block.automachines.alloy_furnace": "Alloy Furnace",
+      "item.chemcraft.bronze_pickaxe_head": "Bronze Pickaxe Head",
+      "block.chemcraft.load_chamber": "Loading Chamber",
+      "block.automachines.nitrocalite_mineral": "Nitrocalite Mineral",
+      "item.chemcraft.pumice_abrasive": "Pumice Abrasive",
+      "item.chemcraft.zinc_concentrate": "Zinc Concentrate",
+      "item.chemcraft.polyamide": "Polyamide",
+      "item.chemcraft.wooden_ruler": "Wooden Ruler",
+      "block.chemcraft.blueprint_table_filled": "Blueprint Table Filled",
+      "item.chemcraft.hematite_piece": "Hematite Ore Piece",
+      "item.chemcraft.impure_wolframite_ore_dust": "Impure Wolframite Ore Dust",
+      "item.chemcraft.copper_dust": "Copper Dust",
+      "block.chemcraft.creative_energy_source": "Creative Energy Source",
+      "item.automachines.stone_axe": "Stone Axe",
+      "block.chemcraft.clay_crucible": "Clay Crucible",
+      "item.automachines.magnetite_piece": "Magnetite Ore Piece",
+      "block.chemcraft.schist": "Schist",
+      "block.chemcraft.platinum_ore": "Platinum Ore",
+      "item.automachines.iridium_piece": "Iridium Piece",
+      "item.chemcraft.carbon": "Carbon",
+      "block.chemcraft.mylonite": "Mylonite",
+      "block.chemcraft.quartz_ore": "Quartz Ore",
+      "block.chemcraft.flint_gravel": "Flint Gravel",
+      "block.chemcraft.pumice_ore": "Pumice Ore",
+      "block.chemcraft.bronze_pickaxe_form": "Bronze Pickaxe Form",
+      "item.chemcraft.tin_ingot": "Tin Ingot",
+      "block.automachines.nitrocalite_crystal": "Nitrocalite Crystal",
+      "block.chemcraft.bronzecrucible": "Bronze Crucible",
+      "item.chemcraft.ash": "Ash",
+      "block.chemcraft.tetrahedrite": "Tetrahedrite",
+      "block.chemcraft.migmatite": "Migmatite",
+      "item.chemcraft.large_steel_pipe": "Large Steel Pipe",
+      "item.chemcraft.sphalerite_dust": "Sphalerite Dust",
+      "item.chemcraft.steel": "Steel",
+      "block.chemcraft.coke_oven": "Coke Oven",
+      "item.chemcraft.obisidian_foam": "Obisidian Foam",
+      "block.chemcraft.gneiss": "Gneiss",
+      "block.chemcraft.lit_firebox": "Lit Firebox",
+      "item.automachines.osmium_crystal": "Osmium Crystal",
+      "block.automachines.blast_furnace": "Blast Furnace Form",
+      "block.chemcraft.wolframite_ore": "Wolframite Ore",
+      "block.automachines.clay_furnace_form": "Clay Furnace Form",
+      "item.chemcraft.beaker": "Beaker",
+      "item.chemcraft.iron_pickaxe_head": "Iron Pickaxe Head",
+      "block.chemcraft.polished_gabbro": "Polished Gabbro",
+      "advancements.it_isnt_all_about_chem.descr": "Discorver a new biome",
+      "item.chemcraft.sand_pile": "Sand Pile",
+      "item.chemcraft.calcium_carbide": "Calcium Carbide",
+      "item.chemcraft.tetrahedrite_ore_piece": "Tetrahedrite Ore Piece",
+      "item.chemcraft.kevlar_vesthelmet": "Kevlar Vest Helmet",
+      "block.chemcraft.radioprotective_composite": "Radioprotective Composite",
+      "block.chemcraft.new_oak": "Pine Log",
+      "advancements.steam_power.title": "Steam Power",
+      "item.chemcraft.pencil": "Pencil",
+      "item.automachines.aluminium_ingot": "Aluminium Ingot",
+      "item.chemcraft.bronze_crusher": "Bronze Crusher",
+      "item.chemcraft.molybdenumbar": "Molybdenum bar",
+      "item.automachines.hematite_piece": "Hematite Ore Piece",
+      "block.chemcraft.soapstone": "Soapstone",
+      "advancements.the_beggining.title": "Chemist Journeyman",
+      "advancements.extreme_luck.descr": "Obtain moissanite - one of the rarest minerals!",
+      "item.chemcraft.platinum_ingot": "Platinum Ingot",
+      "block.chemcraft.basalt": "Basalt",
+      "item.chemcraft.sulfur": "Sulfur",
+      "block.chemcraft.steam_extruder": "Steam Extruder",
+      "item.chemcraft.kevlar_vestboots": "Kevlar Vest Boots",
+      "item.automachines.steel": "Steel Ingot",
+      "block.chemcraft.blueprint_table": "Blueprint Table",
+      "block.chemcraft.amphibolite": "Amphibolite",
+      "block.automachines.sapling": "Sapling",
+      "item.chemcraft.reinforced_carbon_fiber_polymer": "Reinforced Carbon Fiber Polymer",
+      "block.automachines.tree_branch": "Tree Branch",
+      "block.automachines.aluminium_ore": "Aluminium Ore",
+      "block.chemcraft.bronze_shell": "Bronze Frame",
+      "block.automachines.carbon_dirt": "Carbon Dirt",
+      "item.chemcraft.bronze_dust": "Bronze Dust",
+      "block.automachines.b_furnace_done": "B Furnace Done",
+      "block.automachines.pumice_ore": "Pumice Ore",
+      "item.chemcraft.coke": "Coke",
+      "block.chemcraft.bronze_node": "Bronze Node",
+      "item.chemcraft.impeller": "Impeller",
+      "item.chemcraft.cyclohexane": "Cyclohexane",
+      "item.chemcraft.bucket_of_sulfur": "Bucket Of Sulfur",
+      "block.chemcraft.hematite_dirt_ore": "Hematite Dirt Ore",
+      "item.chemcraft.compressed_kevlar": "§eCompressed Kevlar",
+      "block.chemcraft.concrete": "Concrete",
+      "item.chemcraft.bronze_pickaxe": "Bronze Pickaxe",
+      "item.chemcraft.potassium_chloride": "Potassium Chloride",
+      "item.chemcraft.copper_wire_core": "Copper Wire Core",
+      "item.chemcraft.selenium_ore_piece": "Selenium Ore Piece",
+      "block.automachines.hematite_dirt_ore": "Hematite Dirt Ore",
+      "block.chemcraft.aluminium_ore": "Aluminium Ore",
+      "block.chemcraft.electrolysis_cell": "Electrolysis Cell",
+      "block.automachines.leacher": "Leacher",
+      "item.chemcraft.calcium": "Calcium",
+      "item.chemcraft.magnetite_piece": "Magnetite Ore Piece",
+      "item.chemcraft.sulfur_acid": "Sulphuric Acid",
+      "block.automachines.quartz_ore": "Quartz Ore",
+      "item.chemcraft.kevlar_vestlegs": "Kevlar Vest Leggings",
+      "block.automachines.platinum_ore": "Platinum Ore",
+      "item.chemcraft.impeller_gear": "Impeller Gear",
+      "block.chemcraft.sulfur_ore": "Sulfur Ore",
+      "block.chemcraft.water_mill": "Water Mill",
+      "block.chemcraft.pine_leaves": "Pine Leaves",
+      "block.chemcraft.bronze_pickaxe_filled_iron": "Bronze Pickaxe Filled Iron",
+      "block.chemcraft.tree_branch": "Tree Branch",
+      "item.chemcraft.kevlar": "Kevlar",
+      "block.chemcraft.slate": "Slate",
+      "block.chemcraft.cassiterite_ore": "Cassiterite Ore",
+      "item.chemcraft.wolframite_dust": "Wolframite Dust",
+      "item.chemcraft.rhenium_ore_piece": "Rhenium Ore Piece",
+      "advancements.extreme_luck.title": "Extreme Luck",
+      "item.automachines.rope": "Rope",
       "block.chemcraft.pebble": "Pebble",
       "block.chemcraft.pegmatite": "Pegmatite",
       "item.chemcraft.methanol": "Methanol",
-      "item.chemcraft.stick_rotator": "Stick Rotator",
       "block.chemcraft.phyllite": "Phyllite",
-      "item.automachines.stone_hoe": "Stone Hoe",
-      "item.automachines.lens": "Lens",
+      "block.chemcraft.flotation_machine": "Flotation Machine",
       "item.chemcraft.rope": "Rope",
-      "block.chemcraft.electric_generator": "Electric Generator",
-      "block.automachines.copper_cable": "Copper Cable",
+      "item.automachines.lens": "Lens",
       "item.chemcraft.stone_axe": "Stone Axe",
-      "block.automachines.alloy_furnace": "Alloy Furnace",
-      "item.chemcraft.bronze_pickaxe_head": "Bronze Pickaxe Head",
       "block.chemcraft.nitrocalite_crystal": "Nitrocalite Crystal",
       "item.automachines.blade": "Blade",
       "item.chemcraft.iridium_piece": "Iridium Piece",
-      "block.automachines.nitrocalite_mineral": "Nitrocalite Mineral",
-      "item.chemcraft.pumice_abrasive": "Pumice Abrasive",
       "item.automachines.ash": "Ash",
       "block.automachines.oxidizer": "Oxidizer",
       "item.chemcraft.flint_pickaxe": "Flint Pickaxe",
@@ -2933,95 +4110,66 @@
       "block.automachines.machine_shell": "Machine Shell",
       "block.automachines.polished_ash": "Polished Ash",
       "item.automachines.nitrocalite": "Nitrocalite",
-      "block.chemcraft.copper_cable": "Copper Cable",
-      "item.chemcraft.hematite_piece": "Hematite Ore Piece",
-      "item.chemcraft.nitrocalite": "Nitrocalite",
+      "item.chemcraft.cast_iron": "Cast Iron",
       "advancements.it_isnt_all_about_chem.title": "It Isn\u0027t All About Chemistry?",
-      "item.chemcraft.copper_dust": "Copper Dust",
+      "item.chemcraft.nitrocalite": "Nitrocalite",
+      "item.chemcraft.tungsten_bar": "Tungsten Bar",
       "block.automachines.pine_leaves": "Pine Leaves",
-      "item.automachines.stone_axe": "Stone Axe",
       "item.chemcraft.bronze_ingot": "Bronze Ingot",
       "block.automachines.concentrator": "Concentrator",
       "item.chemcraft.tin_dust": "Tin Dust",
       "block.chemcraft.peridotite": "Peridotite",
-      "block.chemcraft.clay_crucible": "Clay Crucible",
+      "item.chemcraft.fused_quartz": "Fused Quartz",
       "block.chemcraft.bronze_steam_pipe": "Bronze Steam Pipe",
-      "item.automachines.magnetite_piece": "Magnetite Ore Piece",
-      "block.chemcraft.schist": "Schist",
+      "block.chemcraft.moissonite": "Moissanite",
       "item.automachines.pumice_abrasive": "Pumice Abrasive",
-      "block.chemcraft.platinum_ore": "Platinum Ore",
       "block.automachines.ash_block": "Ash Block",
-      "item.automachines.iridium_piece": "Iridium Piece",
-      "item.chemcraft.carbon": "Carbon",
-      "block.chemcraft.mylonite": "Mylonite",
-      "block.chemcraft.quartz_ore": "Quartz Ore",
+      "block.chemcraft.steel_hull": "Steel Hull",
       "block.chemcraft.syenite": "Syenite",
-      "block.chemcraft.flint_gravel": "Flint Gravel",
-      "block.chemcraft.pumice_ore": "Pumice Ore",
-      "block.chemcraft.bronze_pickaxe_form": "Bronze Pickaxe Form",
       "block.chemcraft.rhyolite": "Rhyolite",
       "item.automachines.carbon": "Carbon",
-      "item.chemcraft.tin_ingot": "Tin Ingot",
       "item.automachines.thick_stick": "Thick Stick",
-      "block.automachines.nitrocalite_crystal": "Nitrocalite Crystal",
-      "block.chemcraft.bronzecrucible": "Bronze Crucible",
-      "item.chemcraft.ash": "Ash",
-      "block.chemcraft.tetrahedrite": "Tetrahedrite",
-      "block.chemcraft.migmatite": "Migmatite",
-      "itemGroup.tabmod_tab": "Mod Tab",
-      "block.chemcraft.sander": "Sander",
-      "block.chemcraft.oxidizer": "Oxidizer",
+      "block.chemcraft.rumex": "Rumex",
+      "item.chemcraft.kevlar_fiber": "Kevlar Fiber",
+      "item.chemcraft.caprolactam": "Caprolactam",
+      "itemGroup.tabmod_tab": "Chemistrycraft",
+      "block.chemcraft.lit_lamp": "Lit Lamp",
+      "item.chemcraft.cyclohexanone_oxime": "Cyclohexanone Oxime",
+      "block.chemcraft.fluorite": "Fluorite",
       "item.automachines.sulfur": "Sulfur",
-      "item.chemcraft.steel": "Steel Ingot",
       "item.chemcraft.bronze_extruder_matrix_wire": "Bronze Extruder Matrix (Wire)",
-      "block.chemcraft.coke_oven": "Coke Oven",
+      "item.chemcraft.kevlar_vestbody": "§eKevlar Vest ",
       "block.chemcraft.scoria": "Scoria",
-      "item.chemcraft.obisidian_foam": "Obisidian Foam",
       "advancements.the_beggining.descr": "Obtain the sulphuric acid - a heart of chemistry.",
-      "block.chemcraft.lit_firebox": "Lit Firebox",
-      "block.chemcraft.gneiss": "Gneiss",
-      "item.automachines.osmium_crystal": "Osmium Crystal",
-      "block.automachines.blast_furnace": "Blast Furnace Form",
-      "block.chemcraft.alloy_furnace": "Alloy Furnace",
-      "block.automachines.clay_furnace_form": "Clay Furnace Form",
+      "item.chemcraft.silicon_carbide": "Silicon Carbide",
+      "item.chemcraft.tiny_pile_of_selenium": "Tiny Pile Of Selenium",
+      "block.chemcraft.sphalerite": "Sphalerite",
       "block.automachines.macerator": "Macerator",
-      "item.chemcraft.iron_pickaxe_head": "Iron Pickaxe Head",
+      "block.chemcraft.lamp_holder": "Lamp Holder",
       "block.chemcraft.limestone": "Limestone",
       "block.chemcraft.bronze_pickaxe_filled_bronze": "Bronze Pickaxe Filled Bronze",
-      "block.chemcraft.polished_gabbro": "Polished Gabbro",
-      "advancements.it_isnt_all_about_chem.descr": "Discorver a new biome",
       "item.chemcraft.casitterite_ore_piece": "Casitterite Ore Piece",
-      "item.chemcraft.tetrahedrite_ore_piece": "Tetrahedrite Ore Piece",
       "item.chemcraft.copper_ingot": "Copper Ingot",
       "item.automachines.pumice": "Pumice",
       "advancements.steam_power.descr": "obtain your first generator",
-      "block.chemcraft.new_oak": "Pine Log",
-      "advancements.steam_power.title": "Steam Power",
-      "item.automachines.aluminium_ingot": "Aluminium Ingot",
-      "item.chemcraft.bronze_crusher": "Bronze Crusher",
-      "item.automachines.hematite_piece": "Hematite Ore Piece",
-      "block.chemcraft.soapstone": "Soapstone",
+      "block.chemcraft.lamp": "Lamp",
       "item.chemcraft.clay_brick_form": "Clay Brick Form",
-      "advancements.the_beggining.title": "Chemist Journeyman",
-      "item.chemcraft.platinum_ingot": "Platinum Ingot",
       "item.chemcraft.iron_pickaxe": "Iron Pickaxe",
       "block.automachines.sulfur_ore": "Sulfur Ore",
-      "block.chemcraft.basalt": "Basalt",
-      "item.chemcraft.sulfur": "Sulfur",
-      "block.chemcraft.steam_extruder": "Steam Extruder",
-      "item.automachines.steel": "Steel Ingot",
-      "block.chemcraft.leacher": "Leacher",
-      "block.chemcraft.amphibolite": "Amphibolite",
+      "item.chemcraft.quicklime": "Quicklime",
+      "block.chemcraft.molybdenite": "Molybdenite",
+      "item.chemcraft.steel_plate": "Steel Plate",
       "block.chemcraft.dunite": "Dunite",
+      "item.chemcraft.dicarboxylic_acid_salt": "Dicarboxylic Acid Salt",
+      "item.chemcraft.hydroxylamine": "Hydroxylamine",
       "block.chemcraft.carbon_dirt": "Carbon Dirt",
-      "block.chemcraft.machine_shell": "Machine Shell",
       "item.chemcraft.plant_fiber": "Plant Fiber",
       "item.chemcraft.aluminium_ingot": "Aluminium Ingot",
       "block.chemcraft.marble": "Marble",
-      "block.automachines.sapling": "Sapling",
+      "fluid.oil": "Oil",
       "item.automachines.plant_fiber": "Plant Fiber",
-      "block.automachines.tree_branch": "Tree Branch",
-      "block.automachines.aluminium_ore": "Aluminium Ore",
+      "item.chemcraft.hydrogen_gas_cylinder": "Hydrogen Gas Cylinder",
+      "item.chemcraft.para_aramid_fiber": "Para-Aramid Fiber",
       "item.chemcraft.stone_crusher": "Stone Crusher"
     }
   },
@@ -3043,5 +4191,5 @@
     "modElementsPackage": "net.beriff.chemistrycraft",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000425621
+  "mcreatorVersion": 202000428114
 }

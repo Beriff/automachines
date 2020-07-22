@@ -1,0 +1,36 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "chemcraft:bronze_crusher"
+    },
+    "3": {
+      "item": "chemcraft:bronze_plate"
+    },
+    "4": {
+      "item": "minecraft:bricks"
+    },
+    "5": {
+      "item": "chemcraft:bronze_plate"
+    },
+    "6": {
+      "item": "chemcraft:bronze_plate"
+    },
+    "7": {
+      "item": "chemcraft:bronze_plate"
+    },
+    "8": {
+      "item": "chemcraft:bronze_plate"
+    }
+  },
+  "result": {
+    "item": "chemcraft:bronze_shell",
+    "count": 1
+  }
+}

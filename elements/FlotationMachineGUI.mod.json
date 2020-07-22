@@ -1,0 +1,112 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Flotation Machine",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Flotation Machine",
+          "x": 354,
+          "y": 78
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "onSlotChanged": {
+            "name": "Fill"
+          },
+          "name": "Slot #0",
+          "x": 414,
+          "y": 99
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "name": "Slot #1",
+          "x": 336,
+          "y": 150
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "onTakenFromSlot": {
+            "name": "Remove1stSlot"
+          },
+          "name": "Slot #2",
+          "x": 498,
+          "y": 150
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_arrow.png",
+          "name": "gui_arrow.png",
+          "x": 410,
+          "y": 151
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "aaaaa.png",
+          "name": "aaaaa.png",
+          "x": 452,
+          "y": 100
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Energy:<energy>",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Energy:<energy>",
+          "x": 256,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Water: <fluidlevel>",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Water: <fluidlevel>",
+          "x": 257,
+          "y": 208
+        }
+      }
+    ]
+  }
+}

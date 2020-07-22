@@ -62,6 +62,10 @@ public class Pine2SpawnStructure extends ChemcraftModElements.ModElement {
 						Rotation rotation = Rotation.NONE;
 						Mirror mirror = Mirror.NONE;
 						BlockPos spawnTo = new BlockPos(i, j + 0, k);
+						ServerWorld world = (ServerWorld) iworld.getWorld();
+						int x = spawnTo.getX();
+						int y = spawnTo.getY();
+						int z = spawnTo.getZ();
 						template.addBlocksToWorldChunk(iworld, spawnTo,
 								new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
 										.addProcessor(BlockIgnoreStructureProcessor.STRUCTURE_BLOCK).setChunk((ChunkPos) null)

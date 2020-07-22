@@ -1,0 +1,16 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "chemcraft:calcium_carbide"
+    }
+  ],
+  "result": {
+    "item": "chemcraft:acetylen",
+    "count": 1
+  }
+}

@@ -16,6 +16,7 @@ import net.beriff.chemistrycraft.item.CokeItem;
 import net.beriff.chemistrycraft.ChemcraftModElements;
 
 import java.util.concurrent.atomic.AtomicReference;
+import java.util.Map;
 
 @ChemcraftModElements.ModElement.Tag
 public class CokeOvenUpdateTickProcedure extends ChemcraftModElements.ModElement {
@@ -23,7 +24,7 @@ public class CokeOvenUpdateTickProcedure extends ChemcraftModElements.ModElement
 		super(instance, 105);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			System.err.println("Failed to load dependency x for procedure CokeOvenUpdateTick!");
 			return;

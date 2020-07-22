@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PileOfImpureRhenium"
+      },
+      {
+        "value": "CUSTOM:PileOfImpureRhenium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PileOfImpureRhenium"
+      },
+      {
+        "value": "CUSTOM:PileOfImpureRhenium"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RheniumOrePiece"
+    },
+    "name": "rhenium_ore_piece_recipe",
+    "namespace": "mod"
+  }
+}

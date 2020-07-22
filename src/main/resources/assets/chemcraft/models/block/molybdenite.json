@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/molybdenite",
+    "up": "chemcraft:blocks/molybdenite",
+    "north": "chemcraft:blocks/molybdenite",
+    "east": "chemcraft:blocks/molybdenite",
+    "south": "chemcraft:blocks/molybdenite",
+    "west": "chemcraft:blocks/molybdenite",
+    "particle": "chemcraft:blocks/molybdenite"
+  }
+}

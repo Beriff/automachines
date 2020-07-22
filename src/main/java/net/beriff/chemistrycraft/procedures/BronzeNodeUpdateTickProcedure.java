@@ -8,13 +8,15 @@ import net.minecraft.block.BlockState;
 import net.beriff.chemistrycraft.block.BronzeSteamPipeBlock;
 import net.beriff.chemistrycraft.ChemcraftModElements;
 
+import java.util.Map;
+
 @ChemcraftModElements.ModElement.Tag
 public class BronzeNodeUpdateTickProcedure extends ChemcraftModElements.ModElement {
 	public BronzeNodeUpdateTickProcedure(ChemcraftModElements instance) {
 		super(instance, 206);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			System.err.println("Failed to load dependency x for procedure BronzeNodeUpdateTick!");
 			return;

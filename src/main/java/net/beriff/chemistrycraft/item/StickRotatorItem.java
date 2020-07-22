@@ -17,6 +17,9 @@ import net.beriff.chemistrycraft.procedures.StickRotatorRightClickedOnBlockProce
 import net.beriff.chemistrycraft.itemgroup.ModTabItemGroup;
 import net.beriff.chemistrycraft.ChemcraftModElements;
 
+import java.util.Map;
+import java.util.HashMap;
+
 @ChemcraftModElements.ModElement.Tag
 public class StickRotatorItem extends ChemcraftModElements.ModElement {
 	@ObjectHolder("chemcraft:stick_rotator")
@@ -62,7 +65,7 @@ public class StickRotatorItem extends ChemcraftModElements.ModElement {
 			int z = pos.getZ();
 			ItemStack itemstack = context.getItem();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("itemstack", itemstack);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);

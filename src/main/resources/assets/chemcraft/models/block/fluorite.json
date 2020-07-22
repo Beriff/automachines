@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemcraft:blocks/calciumfluoride",
+    "up": "chemcraft:blocks/calciumfluoride",
+    "north": "chemcraft:blocks/calciumfluoride",
+    "east": "chemcraft:blocks/calciumfluoride",
+    "south": "chemcraft:blocks/calciumfluoride",
+    "west": "chemcraft:blocks/calciumfluoride",
+    "particle": "chemcraft:blocks/calciumfluoride"
+  }
+}

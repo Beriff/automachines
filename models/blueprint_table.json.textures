@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "planks_uv": "planks_uv",
+        "wood_uv": "log_uv"
+      },
+      "name": "default"
+    }
+  }
+}

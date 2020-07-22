@@ -10,13 +10,15 @@ import net.minecraft.item.ItemStack;
 
 import net.beriff.chemistrycraft.ChemcraftModElements;
 
+import java.util.Map;
+
 @ChemcraftModElements.ModElement.Tag
 public class ItemTakenProcedure extends ChemcraftModElements.ModElement {
 	public ItemTakenProcedure(ChemcraftModElements instance) {
 		super(instance, 17);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			System.err.println("Failed to load dependency x for procedure ItemTaken!");
 			return;

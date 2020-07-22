@@ -1,0 +1,22 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chemcraft:sulfur_acid"
+    },
+    {
+      "item": "chemcraft:rumex"
+    },
+    {
+      "item": "minecraft:potion"
+    },
+    {
+      "item": "chemcraft:rumex"
+    }
+  ],
+  "result": {
+    "item": "chemcraft:oxalic_acid",
+    "count": 2
+  }
+}

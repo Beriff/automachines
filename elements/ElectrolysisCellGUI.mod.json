@@ -1,0 +1,125 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Electrolysis Cell",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Electrolysis Cell",
+          "x": 354,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "aaaaaaaaaaaaaaa.png",
+          "name": "aaaaaaaaaaaaaaa.png",
+          "x": 394,
+          "y": 127
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "name": "Slot #0",
+          "x": 338,
+          "y": 147
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "name": "Slot #1",
+          "x": 480,
+          "y": 147
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "onSlotChanged": {
+            "name": "Fill2"
+          },
+          "name": "Slot #2",
+          "x": 258,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "aaaaa.png",
+          "name": "aaaaa.png",
+          "x": 290,
+          "y": 101
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disableStackInteraction": false,
+          "onTakenFromSlot": {
+            "name": "Clear2Slots"
+          },
+          "name": "Slot #3",
+          "x": 556,
+          "y": 96
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Energy: <energy>",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Energy: <energy>",
+          "x": 259,
+          "y": 194
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Water: <fluidlevel>",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Water: <fluidlevel>",
+          "x": 453,
+          "y": 195
+        }
+      }
+    ]
+  }
+}

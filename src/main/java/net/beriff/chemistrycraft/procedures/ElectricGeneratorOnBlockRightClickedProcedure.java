@@ -12,6 +12,7 @@ import net.minecraft.entity.Entity;
 import net.beriff.chemistrycraft.ChemcraftModElements;
 
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.Map;
 
 @ChemcraftModElements.ModElement.Tag
 public class ElectricGeneratorOnBlockRightClickedProcedure extends ChemcraftModElements.ModElement {
@@ -19,7 +20,7 @@ public class ElectricGeneratorOnBlockRightClickedProcedure extends ChemcraftModE
 		super(instance, 140);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			System.err.println("Failed to load dependency entity for procedure ElectricGeneratorOnBlockRightClicked!");
 			return;

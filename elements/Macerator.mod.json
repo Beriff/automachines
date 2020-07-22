@@ -2,15 +2,17 @@
   "_fv": 10,
   "_type": "block",
   "definition": {
-    "texture": "iron_uv",
-    "textureTop": "iron_uv",
-    "textureLeft": "macerator_side",
-    "textureFront": "macerator_front",
-    "textureRight": "macerator_side",
-    "textureBack": "stone_uv",
+    "texture": "steel_hull",
+    "textureTop": "steel_hull",
+    "textureLeft": "steel_hull",
+    "textureFront": "macerator2",
+    "textureRight": "steel_hull",
+    "textureBack": "steel_hull",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 1,
+    "emissiveRendering": false,
+    "itemTexture": "",
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -28,7 +30,7 @@
     "creativeTab": {
       "value": "CUSTOM:ModTab"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -61,7 +63,7 @@
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 3,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -69,23 +71,28 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "particleSpawningCondition": "ALWAYS",
     "hasInventory": true,
     "guiBoundTo": "MaceratorGUI",
-    "openGUIOnRightClick": true,
-    "inventorySize": 4,
+    "openGUIOnRightClick": false,
+    "inventorySize": 3,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
-    "inventoryOutSlotIDs": [],
-    "inventoryInSlotIDs": [],
-    "hasEnergyStorage": false,
+    "inventoryOutSlotIDs": [
+      1,
+      2
+    ],
+    "inventoryInSlotIDs": [
+      0
+    ],
+    "hasEnergyStorage": true,
     "energyInitial": 0,
-    "energyCapacity": 400000,
-    "energyMaxReceive": 200,
-    "energyMaxExtract": 200,
+    "energyCapacity": 500,
+    "energyMaxReceive": 500,
+    "energyMaxExtract": 0,
     "isFluidTank": false,
     "fluidCapacity": 8000,
+    "fluidRestrictions": [],
     "onRightClicked": {
       "name": "MaceratorOnBlockRightClicked"
     },

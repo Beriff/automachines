@@ -17,7 +17,9 @@ import net.beriff.chemistrycraft.procedures.SulfurAcidFoodEatenProcedure;
 import net.beriff.chemistrycraft.itemgroup.ModTabItemGroup;
 import net.beriff.chemistrycraft.ChemcraftModElements;
 
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 
 @ChemcraftModElements.ModElement.Tag
 public class SulfurAcidItem extends ChemcraftModElements.ModElement {
@@ -60,7 +62,7 @@ public class SulfurAcidItem extends ChemcraftModElements.ModElement {
 			double y = entity.getPosY();
 			double z = entity.getPosZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				SulfurAcidFoodEatenProcedure.executeProcedure($_dependencies);
 			}

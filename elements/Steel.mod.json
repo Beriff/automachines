@@ -5,9 +5,9 @@
     "renderType": 0,
     "texture": "steel_ingot",
     "customModelName": "Normal",
-    "name": "Steel Ingot",
+    "name": "Steel",
     "creativeTab": {
-      "value": "CUSTOM:ModTab"
+      "value": "MISC"
     },
     "stackSize": 64,
     "enchantability": 0,

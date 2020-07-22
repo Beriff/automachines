@@ -1,0 +1,22 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chemcraft:tiny_pile_of_selenium"
+    },
+    {
+      "item": "chemcraft:tiny_pile_of_selenium"
+    },
+    {
+      "item": "chemcraft:tiny_pile_of_selenium"
+    },
+    {
+      "item": "chemcraft:tiny_pile_of_selenium"
+    }
+  ],
+  "result": {
+    "item": "chemcraft:selenium_ore_piece",
+    "count": 1
+  }
+}

@@ -2,28 +2,31 @@ package net.beriff.chemistrycraft.procedures;
 
 import net.minecraftforge.items.IItemHandlerModifiable;
 import net.minecraftforge.items.CapabilityItemHandler;
+import net.minecraftforge.energy.CapabilityEnergy;
 
 import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.item.ItemStack;
+import net.minecraft.block.Blocks;
 
-import net.beriff.chemistrycraft.item.SulfurItem;
-import net.beriff.chemistrycraft.item.BladeItem;
-import net.beriff.chemistrycraft.item.AshItem;
-import net.beriff.chemistrycraft.block.PumiceOreBlock;
-import net.beriff.chemistrycraft.block.AshBlockBlock;
+import net.beriff.chemistrycraft.item.TinyPileOfSeleniumItem;
+import net.beriff.chemistrycraft.item.RheniumOrePieceItem;
+import net.beriff.chemistrycraft.item.MolybdeniteOrePieceItem;
+import net.beriff.chemistrycraft.block.MolybdeniteBlock;
 import net.beriff.chemistrycraft.ChemcraftModElements;
 
 import java.util.concurrent.atomic.AtomicReference;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.Map;
 
 @ChemcraftModElements.ModElement.Tag
 public class MaceratorUpdateTickProcedure extends ChemcraftModElements.ModElement {
 	public MaceratorUpdateTickProcedure(ChemcraftModElements instance) {
-		super(instance, 23);
+		super(instance, 275);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			System.err.println("Failed to load dependency x for procedure MaceratorUpdateTick!");
 			return;
@@ -45,17 +48,14 @@ public class MaceratorUpdateTickProcedure extends ChemcraftModElements.ModElemen
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		World world = (World) dependencies.get("world");
 		if (((new Object() {
-			public ItemStack getItemStack(BlockPos pos, int sltid) {
-				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+			public int getEnergyStored(BlockPos pos) {
+				AtomicInteger _retval = new AtomicInteger(0);
 				TileEntity _ent = world.getTileEntity(pos);
-				if (_ent != null) {
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-						_retval.set(capability.getStackInSlot(sltid).copy());
-					});
-				}
+				if (_ent != null)
+					_ent.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(capability -> _retval.set(capability.getEnergyStored()));
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(BladeItem.block, (int) (1)).getItem())) {
+		}.getEnergyStored(new BlockPos((int) x, (int) y, (int) z))) >= 300)) {
 			if (((new Object() {
 				public ItemStack getItemStack(BlockPos pos, int sltid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -67,13 +67,13 @@ public class MaceratorUpdateTickProcedure extends ChemcraftModElements.ModElemen
 					}
 					return _retval.get();
 				}
-			}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == new ItemStack(AshBlockBlock.block, (int) (1))
+			}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(MolybdeniteBlock.block, (int) (1))
 					.getItem())) {
 				{
 					TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 					if (_ent != null) {
-						final int _sltid = (int) (2);
-						final ItemStack _setstack = new ItemStack(AshItem.block, (int) (1));
+						final int _sltid = (int) (1);
+						final ItemStack _setstack = new ItemStack(MolybdeniteOrePieceItem.block, (int) (1));
 						_setstack.setCount((int) 1);
 						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 							if (capability instanceof IItemHandlerModifiable) {
@@ -82,26 +82,55 @@ public class MaceratorUpdateTickProcedure extends ChemcraftModElements.ModElemen
 						});
 					}
 				}
-			}
-			if (((new Object() {
-				public ItemStack getItemStack(BlockPos pos, int sltid) {
-					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-					TileEntity _ent = world.getTileEntity(pos);
+				if ((Math.random() > 0.5)) {
+					{
+						TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+						if (_ent != null) {
+							final int _sltid = (int) (2);
+							final ItemStack _setstack = new ItemStack(RheniumOrePieceItem.block, (int) (1));
+							_setstack.setCount((int) 1);
+							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+								if (capability instanceof IItemHandlerModifiable) {
+									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
+								}
+							});
+						}
+					}
+				} else {
+					{
+						TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+						if (_ent != null) {
+							final int _sltid = (int) (2);
+							final ItemStack _setstack = new ItemStack(TinyPileOfSeleniumItem.block, (int) (1));
+							_setstack.setCount((int) 1);
+							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+								if (capability instanceof IItemHandlerModifiable) {
+									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
+								}
+							});
+						}
+					}
+				}
+			} else {
+				{
+					TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 					if (_ent != null) {
+						final int _sltid = (int) (1);
+						final ItemStack _setstack = new ItemStack(Blocks.AIR, (int) (1));
+						_setstack.setCount((int) 1);
 						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-							_retval.set(capability.getStackInSlot(sltid).copy());
+							if (capability instanceof IItemHandlerModifiable) {
+								((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
+							}
 						});
 					}
-					return _retval.get();
 				}
-			}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == new ItemStack(PumiceOreBlock.block, (int) (1))
-					.getItem())) {
 				{
 					TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 					if (_ent != null) {
 						final int _sltid = (int) (2);
-						final ItemStack _setstack = new ItemStack(SulfurItem.block, (int) (1));
-						_setstack.setCount((int) 5);
+						final ItemStack _setstack = new ItemStack(Blocks.AIR, (int) (1));
+						_setstack.setCount((int) 1);
 						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 							if (capability instanceof IItemHandlerModifiable) {
 								((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);

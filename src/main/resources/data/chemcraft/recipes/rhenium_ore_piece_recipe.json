@@ -1,0 +1,22 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chemcraft:pile_of_impure_rhenium"
+    },
+    {
+      "item": "chemcraft:pile_of_impure_rhenium"
+    },
+    {
+      "item": "chemcraft:pile_of_impure_rhenium"
+    },
+    {
+      "item": "chemcraft:pile_of_impure_rhenium"
+    }
+  ],
+  "result": {
+    "item": "chemcraft:rhenium_ore_piece",
+    "count": 1
+  }
+}

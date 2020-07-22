@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "chemcraft:oil",
+    "chemcraft:oil_flowing"
+  ]
+}

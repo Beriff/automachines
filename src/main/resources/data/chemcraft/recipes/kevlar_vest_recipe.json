@@ -1,0 +1,42 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "chemcraft:compressed_kevlar"
+    },
+    "1": {
+      "item": "chemcraft:compressed_kevlar"
+    },
+    "2": {
+      "item": "chemcraft:compressed_kevlar"
+    },
+    "3": {
+      "item": "chemcraft:compressed_kevlar"
+    },
+    "4": {
+      "item": "chemcraft:steel_plate"
+    },
+    "5": {
+      "item": "chemcraft:compressed_kevlar"
+    },
+    "6": {
+      "item": "chemcraft:compressed_kevlar"
+    },
+    "7": {
+      "item": "chemcraft:compressed_kevlar"
+    },
+    "8": {
+      "item": "chemcraft:compressed_kevlar"
+    }
+  },
+  "result": {
+    "item": "chemcraft:kevlar_vestbody",
+    "count": 1
+  }
+}

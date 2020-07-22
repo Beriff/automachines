@@ -9,13 +9,15 @@ import net.minecraft.block.Blocks;
 
 import net.beriff.chemistrycraft.ChemcraftModElements;
 
+import java.util.Map;
+
 @ChemcraftModElements.ModElement.Tag
 public class WaterMillUpdateTickProcedure extends ChemcraftModElements.ModElement {
 	public WaterMillUpdateTickProcedure(ChemcraftModElements instance) {
 		super(instance, 138);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			System.err.println("Failed to load dependency x for procedure WaterMillUpdateTick!");
 			return;

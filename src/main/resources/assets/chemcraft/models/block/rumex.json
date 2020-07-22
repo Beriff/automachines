@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "chemcraft:blocks/rumex",
+    "particle": "chemcraft:blocks/rumex"
+  }
+}

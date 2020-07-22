@@ -17,6 +17,8 @@ import net.minecraft.entity.Entity;
 import net.beriff.chemistrycraft.gui.ExtruderGUIGui;
 import net.beriff.chemistrycraft.ChemcraftModElements;
 
+import java.util.Map;
+
 import io.netty.buffer.Unpooled;
 
 @ChemcraftModElements.ModElement.Tag
@@ -25,7 +27,7 @@ public class SteamExtruderOnBlockRightClickedProcedure extends ChemcraftModEleme
 		super(instance, 199);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			System.err.println("Failed to load dependency entity for procedure SteamExtruderOnBlockRightClicked!");
 			return;

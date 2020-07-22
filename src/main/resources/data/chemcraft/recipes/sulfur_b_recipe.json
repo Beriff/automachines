@@ -1,0 +1,22 @@
+{
+  "group": "chemcraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chemcraft:sulfur"
+    },
+    {
+      "item": "chemcraft:sulfur"
+    },
+    {
+      "item": "chemcraft:sulfur"
+    },
+    {
+      "item": "minecraft:bucket"
+    }
+  ],
+  "result": {
+    "item": "chemcraft:bucket_of_sulfur",
+    "count": 1
+  }
+}

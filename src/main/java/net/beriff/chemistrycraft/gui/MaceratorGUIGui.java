@@ -13,6 +13,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.DeferredWorkQueue;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.energy.CapabilityEnergy;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -29,15 +30,17 @@ import net.minecraft.inventory.container.Container;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
-import net.beriff.chemistrycraft.procedures.ItemTakenProcedure;
+import net.beriff.chemistrycraft.procedures.Clear0Procedure;
 import net.beriff.chemistrycraft.ChemcraftModElements;
 import net.beriff.chemistrycraft.ChemcraftMod;
 
 import java.util.function.Supplier;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.Map;
 import java.util.HashMap;
 
@@ -46,7 +49,7 @@ public class MaceratorGUIGui extends ChemcraftModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 	public MaceratorGUIGui(ChemcraftModElements instance) {
-		super(instance, 22);
+		super(instance, 272);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -101,6 +104,14 @@ public class MaceratorGUIGui extends ChemcraftModElements.ModElement {
 						this.internal = capability;
 						this.bound = true;
 					});
+				} else if (extraData.readableBytes() > 1) {
+					extraData.readByte(); // drop padding
+					Entity entity = world.getEntityByID(extraData.readVarInt());
+					if (entity != null)
+						entity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+							this.internal = capability;
+							this.bound = true;
+						});
 				} else { // might be bound to block
 					TileEntity ent = inv.player != null ? inv.player.world.getTileEntity(pos) : null;
 					if (ent != null) {
@@ -111,11 +122,22 @@ public class MaceratorGUIGui extends ChemcraftModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 43, 12) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 39) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 43, 48) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 133, 21) {
+				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(1, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 115, 30) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 133, 57) {
 				@Override
 				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
 					ItemStack retval = super.onTake(entity, stack);
@@ -319,16 +341,15 @@ public class MaceratorGUIGui extends ChemcraftModElements.ModElement {
 			int k = (this.width - this.xSize) / 2;
 			int l = (this.height - this.ySize) / 2;
 			this.blit(k, l, 0, 0, this.xSize, this.ySize);
-			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("chemcraft:textures/gui_saw.png"));
-			this.blit(this.guiLeft + 45, this.guiTop + 31, 0, 0, 256, 256);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("chemcraft:textures/gui_arrow.png"));
-			this.blit(this.guiLeft + 75, this.guiTop + 29, 0, 0, 256, 256);
+			this.blit(this.guiLeft + 79, this.guiTop + 38, 0, 0, 256, 256);
 		}
 
 		@Override
 		public boolean keyPressed(int key, int b, int c) {
 			if (key == 256) {
 				this.minecraft.player.closeScreen();
+				return true;
 			}
 			return super.keyPressed(key, b, c);
 		}
@@ -340,7 +361,16 @@ public class MaceratorGUIGui extends ChemcraftModElements.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
-			this.font.drawString("Macerator", 70, 2, -12566464);
+			this.font.drawString("Macerator", 71, 2, -12566464);
+			this.font.drawString("" + (new Object() {
+				public int getEnergyStored(BlockPos pos) {
+					AtomicInteger _retval = new AtomicInteger(0);
+					TileEntity _ent = world.getTileEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(capability -> _retval.set(capability.getEnergyStored()));
+					return _retval.get();
+				}
+			}.getEnergyStored(new BlockPos((int) x, (int) y, (int) z))) + " eCU", 61, 20, -12566464);
 		}
 
 		@Override
@@ -449,14 +479,24 @@ public class MaceratorGUIGui extends ChemcraftModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
-		if (slotID == 2 && changeType == 1) {
+		if (slotID == 1 && changeType == 1) {
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				ItemTakenProcedure.executeProcedure($_dependencies);
+				Clear0Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 2 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				Clear0Procedure.executeProcedure($_dependencies);
 			}
 		}
 	}
